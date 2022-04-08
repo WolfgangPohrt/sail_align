@@ -1,7 +1,6 @@
 import sys
 import subprocess
 import os
-import librosa
 import tgt
 from tgt.core import Interval, IntervalTier, TextGrid
 import pathlib
@@ -9,13 +8,13 @@ import wave
 import contextlib
 
 """
-Script to assign an interval in 
+Script to assign an interval in
 unaligned words so that the manual correction on
 praat is easier. Also adds 'SIL' intervals
 in the start and end if needed.
 
 Input: (1) input_path: Path to input textGrid
-       (2) data_dir: Path to directory tha contains 
+       (2) data_dir: Path to directory tha contains
            the audio file that correspond to the
            input textGrid.
        (3) output_dir: Path to directory to save the
