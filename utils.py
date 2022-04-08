@@ -1,7 +1,5 @@
 import subprocess
 import os
-import librosa
-import soundfile as sf
 from support.scripts.flatten_textGrid import post_process
 from chardet import detect
 

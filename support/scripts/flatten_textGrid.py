@@ -8,13 +8,13 @@ import pathlib
 
 
 """
-Script to assign an interval in 
+Script to assign an interval in
 unaligned words so that the manual correction on
 praat is easier. Also adds 'SIL' intervals
 in the start and end if needed.
 
 Input: (1) input_path: Path to input textGrid
-       (2) data_dir: Path to directory tha contains 
+       (2) data_dir: Path to directory tha contains
            the audio file that correspond to the
            input textGrid.
        (3) output_dir: Path to directory to save the
@@ -97,7 +97,7 @@ def post_process(input_path, wav_path, output_path):
 
 
     # write textGrid #
-    tgt.io.write_to_file(grid_sil, output_path)
+    tgt.io.write_to_file(grid_sil, output_path, format='long')
 
 
 if __name__ == '__main__':
