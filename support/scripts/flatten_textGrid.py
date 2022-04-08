@@ -5,22 +5,29 @@ import librosa
 import tgt
 from tgt.core import Interval, IntervalTier, TextGrid
 import pathlib
-
+import wave
+import contextlib
 
 """
-Script to assign an interval in
+Script to assign an interval in 
 unaligned words so that the manual correction on
 praat is easier. Also adds 'SIL' intervals
 in the start and end if needed.
 
 Input: (1) input_path: Path to input textGrid
-       (2) data_dir: Path to directory tha contains
+       (2) data_dir: Path to directory tha contains 
            the audio file that correspond to the
            input textGrid.
        (3) output_dir: Path to directory to save the
         the new textGrid.
 """
 
+def get_duration(fname):
+    with contextlib.closing(wave.open(fname,'r')) as f:
+        frames = f.getnframes()
+        rate = f.getframerate()
+        duration = frames / float(rate)
+    return duration
 
 def flatten_text(inter):
     t = []
@@ -43,7 +50,7 @@ def post_process(input_path, wav_path, output_path):
     cwd = os.getcwd()
     b_name = os.path.basename(input_path)
     wav_name = b_name[:-8]+'wav'
-    wav_duration = librosa.get_duration(filename=wav_path)
+    wav_duration = get_duration(wav_path)
 
 
     grid = tgt.io.read_textgrid(input_path)
