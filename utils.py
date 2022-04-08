@@ -2,7 +2,7 @@ import subprocess
 import os
 import librosa
 import soundfile as sf
-from support.scripts.flatten_textGrid import post_process 
+from support.scripts.flatten_textGrid import post_process
 from chardet import detect
 
 # get file encoding type
@@ -14,10 +14,10 @@ def get_encoding_type(file):
 def change_encoding(srcfile, trgfile):
     from_codec = get_encoding_type(srcfile)
 
-    try: 
+    try:
         with open(srcfile, 'r', encoding=from_codec) as f, \
             open(trgfile, 'w', encoding='utf-8') as e:
-            text = f.read() 
+            text = f.read()
             e.write(text)
 
         os.remove(srcfile) # remove old encoding file
@@ -29,9 +29,9 @@ def change_encoding(srcfile, trgfile):
 
 
 def resample(wav_path, sr=16000):
-    y, _ = librosa.load(wav_path)
-    sf.write(wav_path, y, sr)
-    
+    subprocess.call('sox {} -r 16000 tmp.wav'.format(wav_path), shell=True)
+    os.remove(wav_path)
+    os.rename('tmp.wav', wav_path)
 
 def run_sail_align(config, session):
 
@@ -49,6 +49,6 @@ def lab2textGrid(config, session):
     subprocess.call('python3 support/scripts/lab2textGrid.py {} > \
                     {}'.format(lab_path, textGrid_path), shell=True)
     post_process(textGrid_path, session.get('audio'), '{}.textGrid'.format(session.get('basename')))
-    
-    
+
+
 
