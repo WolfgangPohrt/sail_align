@@ -44,7 +44,7 @@ def lab2textGrid(config, session):
                     '{}.lab'.format(session.get('basename')))
     textGrid_path = os.path.join(config['sailalign_wdir'],
                     '{}.textGrid'.format(session.get('basename')))
-    subprocess.call('python3 support/scripts/lab2textGrid.py {} > \
+    subprocess.call('python3 support/scripts/lab2textGrid.py {} \
                     {}'.format(lab_path, textGrid_path), shell=True)
     post_process(textGrid_path, session.get('audio'), '{}.textGrid'.format(session.get('basename')))
 
