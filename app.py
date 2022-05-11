@@ -20,6 +20,7 @@ def processing():
     if request.method == 'POST':
         run_sail_align(app.config, session)
         lab2textGrid(app.config, session)
+        clean_up(app.config, session)
 
         return 'done'
 

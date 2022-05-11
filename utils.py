@@ -1,5 +1,6 @@
 import subprocess
 import os
+import shutil
 from support.scripts.flatten_textGrid import post_process
 from chardet import detect
 
@@ -50,3 +51,12 @@ def lab2textGrid(config, session):
 
 
 
+def clean_up(config, session):
+    """
+    Remove working dir,
+    audio file and
+    transcript file.
+    """
+    shutil.rmtree(config['sailalign_wdir'])
+    os.remove(session.get('audio'))
+    os.remove(session.get('trascript'))
