@@ -196,7 +196,7 @@ if (!-e catdir($model_dir, "norwegian", "htk", "norwegian_24")) {
 
 
 # Properly modify the configuration files
-my @config_files = ("timit_alignment.cfg", "spanish_alignment.cfg","greek_alignment.cfg", "norwegian_alignment.cfg");
+my @config_files = ("timit_alignment.cfg", "spanish_alignment.cfg","greek_alignment.cfg", "norwegian_alignment.cfg", "norwegian_children_alignment.cfg");
 
 foreach my $conf (@config_files)
 { 

@@ -7,7 +7,7 @@ from utils import *
 
 app = Flask(__name__)
 app.secret_key = "supposed to be a secret"
-app.config['sailalign_config'] = 'config/norwegian_alignment.cfg'
+app.config['sailalign_config'] = 'config/norwegian_children_alignment.cfg'
 app.config['sailalign_expid'] = 'norwegian_test'
 app.config['sailalign_wdir'] = 'support/test/local_norwegian'
 app.config['tmp_file'] = 'tmp.txt'
