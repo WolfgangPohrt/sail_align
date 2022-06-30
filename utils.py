@@ -1,7 +1,9 @@
 import subprocess
 import os
+import librosa
 import shutil
-from support.scripts.flatten_textGrid import post_process
+import soundfile as sf
+from support.scripts.flatten_textGrid import post_process 
 from chardet import detect
 
 # get file encoding type
@@ -13,10 +15,10 @@ def get_encoding_type(file):
 def change_encoding(srcfile, trgfile):
     from_codec = get_encoding_type(srcfile)
 
-    try:
+    try: 
         with open(srcfile, 'r', encoding=from_codec) as f, \
             open(trgfile, 'w', encoding='utf-8') as e:
-            text = f.read()
+            text = f.read() 
             e.write(text)
 
         os.remove(srcfile) # remove old encoding file
@@ -32,31 +34,38 @@ def resample(wav_path, sr=16000):
     os.remove(wav_path)
     os.rename('tmp.wav', wav_path)
 
-def run_sail_align(config, session):
-
+def run_sail_align(config, session, lang, name):
+    working_dir = '{}_{}'.format(config['sailalign_wdir'],
+                                 name)
     subprocess.call('sail_align -i {} -t {} -w {} -e {} -c ./{}'.format(session.get('audio'),
                     session.get('trascript'),
-                    config['sailalign_wdir'],
+                    working_dir,
                     config['sailalign_expid'],
-                    config['sailalign_config']), shell=True)
+                    config['sailalign_config'][lang]), shell=True)
 
-def lab2textGrid(config, session):
-    lab_path = os.path.join(config['sailalign_wdir'],
-                    '{}.lab'.format(session.get('basename')))
-    textGrid_path = os.path.join(config['sailalign_wdir'],
+def lab2textGrid(config, session, name):
+    working_dir = '{}_{}'.format(config['sailalign_wdir'],
+                                 name)
+
+    lab_path = os.path.join(working_dir,
+                    '{}.lab'.format(name))
+    textGrid_path = os.path.join(working_dir,
                     '{}.textGrid'.format(session.get('basename')))
     subprocess.call('python3 support/scripts/lab2textGrid.py {} \
                     {}'.format(lab_path, textGrid_path), shell=True)
     post_process(textGrid_path, session.get('audio'), '{}.textGrid'.format(session.get('basename')))
-
-
-
-def clean_up(config, session):
+    
+    
+def clean_up(config, session, name):
     """
     Remove working dir,
     audio file and
     transcript file.
     """
-    shutil.rmtree(config['sailalign_wdir'])
+    # textgrid_file = os.path.join(config['sailalign_wdir'], session.get('basename') + '.lab')
+    working_dir = '{}_{}'.format(config['sailalign_wdir'],
+                                name)
+    shutil.rmtree(working_dir)
+    # os.remove(textgrid_file)
     os.remove(session.get('audio'))
     os.remove(session.get('trascript'))

@@ -1,20 +1,20 @@
 import sys
-import subprocess
 import os
 import tgt
 from tgt.core import Interval, IntervalTier, TextGrid
-import pathlib
 import wave
 import contextlib
+import codecs
+
 
 """
-Script to assign an interval in
+Script to assign an interval in 
 unaligned words so that the manual correction on
 praat is easier. Also adds 'SIL' intervals
 in the start and end if needed.
 
 Input: (1) input_path: Path to input textGrid
-       (2) data_dir: Path to directory tha contains
+       (2) data_dir: Path to directory tha contains 
            the audio file that correspond to the
            input textGrid.
        (3) output_dir: Path to directory to save the
@@ -39,7 +39,7 @@ def flatten_text(inter):
     x_max = float(x_min) + float(inter_length)
     for word in words:
         # t.append(Interval(round(x_min,4), round(x_max,4), word))
-        t.append(Interval(x_min, x_max, word))
+        t.append(Interval(round(x_min,4), round(x_max,4), word))
 
         x_min = x_max
         x_max = float(x_min) + float(inter_length)
@@ -48,7 +48,6 @@ def flatten_text(inter):
 def post_process(input_path, wav_path, output_path):
     cwd = os.getcwd()
     b_name = os.path.basename(input_path)
-    wav_name = b_name[:-8]+'wav'
     wav_duration = get_duration(wav_path)
 
 

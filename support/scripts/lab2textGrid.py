@@ -12,7 +12,6 @@ Output: Outputs textGrid file to stfout.
 if __name__=="__main__":
     lab_file = sys.argv[1]
     textGrid_file = sys.argv[2]
-    
     with codecs.open(lab_file, 'r', 'utf-8') as f:
         lines = f.readlines()
 

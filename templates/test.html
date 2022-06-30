@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    body {text-align:center}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Long Audio Alignment</h1>
+    <h2>Choose Language</h2>
+     <form method="POST" action="/dropdown">
+        <select name="colour">
+      <option value="{{colours[0]}}" selected>{{colours[0]}}</option>
+      {% for colour in colours[1:] %}
+        <option value="{{colour}}">{{colour}}</option>
+      {% endfor %}
+        </select>
+      <input type="submit" value ="Submit">
+      </form>
+</body>
+</html>

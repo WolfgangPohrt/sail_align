@@ -1,0 +1,3 @@
+{% for x in server_list %}
+<option value="{{ x }}"{% if loop.first %} SELECTED{% endif %}>{{ x }}</option>
+{% endfor %}

@@ -5,29 +5,51 @@
 {% endblock %}
 
 {% block body %}
-<div>
+
+<style>
+	a:link, a:visited {
+	  background-color: white;
+	  color: black;
+	  border: 2px solid green;
+	  padding: 10px 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	}
+	
+	a:hover, a:active {
+	  background-color: green;
+	  color: white;
+	}
+</style>
+
+<div style="text-align:center">
 	<img class="center" src="{{ img }}">
+	<a href='/' target="_blank">Align new file</a> 
+
 </div>
+<!-- <a href="/"><p style="text-align:center">Align New File</p></a> -->
 
 
 
 
 <script type="text/javascript">
+
 	var request = new XMLHttpRequest();
-	request.open('POST', '/processing');
+	var name = "{{ bname }}"
+	var lang = "{{ lang }}"
+	request.open('POST', '/processing/'+lang+'/'+name);
 
 	request.onload = function() {
 	  if (request.status === 200 && request.responseText === 'done') {
-	    // long process finished successfully, redirect user
-	    window.location = '/success';
+	    // window.location = '/success/'+name;
+		window.location = '/done'
 	  } else {
-	    // ops, we got an error from the server
 	    alert('Something went wrong.');
 	  }
 	};
 
 	request.onerror = function() {
-	  // ops, we got an error trying to talk to the server
 	  alert('Something went wrong.');
 	};
 
