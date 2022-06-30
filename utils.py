@@ -1,9 +1,7 @@
 import subprocess
 import os
-import librosa
 import shutil
-import soundfile as sf
-from support.scripts.flatten_textGrid import post_process 
+from support.scripts.flatten_textGrid import post_process
 from chardet import detect
 
 # get file encoding type
@@ -15,10 +13,10 @@ def get_encoding_type(file):
 def change_encoding(srcfile, trgfile):
     from_codec = get_encoding_type(srcfile)
 
-    try: 
+    try:
         with open(srcfile, 'r', encoding=from_codec) as f, \
             open(trgfile, 'w', encoding='utf-8') as e:
-            text = f.read() 
+            text = f.read()
             e.write(text)
 
         os.remove(srcfile) # remove old encoding file
@@ -54,8 +52,8 @@ def lab2textGrid(config, session, name):
     subprocess.call('python3 support/scripts/lab2textGrid.py {} \
                     {}'.format(lab_path, textGrid_path), shell=True)
     post_process(textGrid_path, session.get('audio'), '{}.textGrid'.format(session.get('basename')))
-    
-    
+
+
 def clean_up(config, session, name):
     """
     Remove working dir,

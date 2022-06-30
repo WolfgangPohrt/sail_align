@@ -1,4 +1,3 @@
-from distutils.command.config import config
 from flask import Flask, render_template, url_for, request, redirect, session, send_from_directory, send_file
 import time
 import os
@@ -6,7 +5,7 @@ import subprocess
 from utils import *
 
 app = Flask(__name__)
-app.secret_key = "13121212"
+app.secret_key = "secret key"
 app.config['sailalign_config'] = {'Norwegian':'config/norwegian_alignment.cfg',
                                   'Greek': 'config/norwegian_alignment.cfg',
                                   'English': 'config/timit_alignment.cfg',
