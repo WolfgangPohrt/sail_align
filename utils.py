@@ -3,7 +3,7 @@ import os
 import shutil
 import sndhdr
 import yaml
-from support.scripts.flatten_textGrid import post_process 
+from support.scripts.flatten_textGrid import post_process
 from support.scripts.lab2textGrid import lab2textgrid
 from chardet import detect
 from collections import deque
@@ -26,7 +26,7 @@ class Queue:
 
     def dequeue(self):
         return self._elements.popleft()
-    
+
     def peek(self):
         return self._elements[-1]
 
@@ -62,10 +62,10 @@ def change_encoding(srcfile, trgfile, encoding='utf-8'):
     """
     from_codec = get_encoding_type(srcfile)
 
-    try: 
+    try:
         with open(srcfile, 'r', encoding=from_codec) as f, \
             open(trgfile, 'w', encoding=encoding) as e:
-            text = f.read() 
+            text = f.read()
             e.write(text)
 
         os.remove(srcfile) # remove old encoding file
@@ -111,10 +111,10 @@ def lab2textGrid(config, audio_path, text_path, basename, lang):
     lab2textgrid(lab_path, textGrid_path)
     # subprocess.call('python3 support/scripts/lab2textGrid.py {} \
     #                 {}'.format(lab_path, textGrid_path), shell=True)
-    
+
     post_process(textGrid_path, audio_path, '{}.textGrid'.format(basename))
-    
-    
+
+
 
 def clean_up(config, session, name, lang):
     """

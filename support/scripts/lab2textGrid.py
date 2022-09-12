@@ -2,18 +2,18 @@
 import sys
 import codecs
 """
-This script converts an alignment from lab 
+This script converts an alignment from lab
 format to textGrid format.
 
 Input: lab_file: Path to lab file
-Output: Outputs textGrid file to stfout. 
+Output: Outputs textGrid file to stfout.
 """
 
-if __name__=="__main__":
-    lab_file = sys.argv[1]
-    textGrid_file = sys.argv[2]
+
+def lab2textgrid(lab_file, textGrid_file):
+
     with codecs.open(lab_file, 'r', 'utf-8') as f:
-        lines = f.readlines()
+            lines = f.readlines()
 
     with codecs.open(textGrid_file, 'w', 'utf-8') as f:
         f.write("File type = \"ooTextFile\"\n")
@@ -21,7 +21,7 @@ if __name__=="__main__":
 
         start_times = []
         end_times = []
-        labels = []  
+        labels = []
         for ln in lines:
             ln = ln.rstrip('\r\n')
             ln_info = ln.split()
@@ -48,3 +48,12 @@ if __name__=="__main__":
             f.write("xmin = {}\n".format(start_times[count]))
             f.write("xmax = {}\n".format(end_times[count]))
             f.write("text = \"{}\"\n".format(labels[count]))
+
+
+
+
+
+if __name__=="__main__":
+    lab_file = sys.argv[1]
+    textGrid_file = sys.argv[2]
+    lab2textgrid(lab_file, textGrid_file)
