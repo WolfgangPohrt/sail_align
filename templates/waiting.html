@@ -25,9 +25,15 @@
 
 <div style="text-align:center">
 	<img class="center" src="{{ img }}">
-	<a href='/' target="_blank">Align new file</a> 
+	<a href='/' target="">Align new file</a> 
+	<a href='/done/{{lang}}' target="">Aligned files</a> 
 
 </div>
+
+
+
+
+
 <!-- <a href="/"><p style="text-align:center">Align New File</p></a> -->
 
 
@@ -43,7 +49,7 @@
 	request.onload = function() {
 	  if (request.status === 200 && request.responseText === 'done') {
 	    // window.location = '/success/'+name;
-		window.location = '/done'
+		window.location = '/done/'+lang
 	  } else {
 	    alert('Something went wrong.');
 	  }

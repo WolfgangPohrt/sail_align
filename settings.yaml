@@ -1,0 +1,19 @@
+
+config_files:
+  Greek: config/greek_alignment.cfg
+  Norwegian: config/norwegian_alignment.cfg
+  English: config/timit_alignment.cfg
+  Spanish: config/spanish_alignment.dfg
+exp_name:
+  Greek: greek_test
+  Norwegian: norwegian_test
+  English: english_test
+  Spanish: spanish_test
+working_dir:
+  Greek: support/test/local_greek
+  Norwegian: support/test/local_norwegian
+  English: support/test/local_english
+  Spanish: support/test/local_spanish
+
+num_proc: 4
+

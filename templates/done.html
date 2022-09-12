@@ -27,11 +27,11 @@
 <body>
     <h1>Long Audio Alignment</h1>
     <h2>Aligned Files</h2>
-     <form method="POST" action="/done_dropdown">
-        <select name="colour">
-      <option value="{{colours[0]}}" selected>{{colours[0]}}</option>
-      {% for colour in colours[1:] %}
-        <option value="{{colour}}">{{colour}}</option>
+     <form method="POST" action="/done_dropdown/{{lang}}">
+        <select name="file">
+      <option value="{{done[0]}}" selected>{{done[0]}}</option>
+      {% for file in done[1:] %}
+        <option value="{{file}}">{{file}}</option>
       {% endfor %}
         </select>
       <input type="submit" value ="Download">
