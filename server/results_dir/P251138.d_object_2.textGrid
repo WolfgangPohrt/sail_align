@@ -1,0 +1,306 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 66.432
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0
+		xmax = 66.432
+		intervals: size = 73
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.71
+			text = ""
+		intervals [2]:
+			xmin = 0.71
+			xmax = 0.9
+			text = "båt"
+		intervals [3]:
+			xmin = 0.9
+			xmax = 2.39
+			text = ""
+		intervals [4]:
+			xmin = 2.39
+			xmax = 2.61
+			text = "hus"
+		intervals [5]:
+			xmin = 2.61
+			xmax = 4.02
+			text = ""
+		intervals [6]:
+			xmin = 4.02
+			xmax = 4.25
+			text = "gutt"
+		intervals [7]:
+			xmin = 4.25
+			xmax = 5.61
+			text = ""
+		intervals [8]:
+			xmin = 5.61
+			xmax = 5.77
+			text = "hånd"
+		intervals [9]:
+			xmin = 5.77
+			xmax = 7.14
+			text = ""
+		intervals [10]:
+			xmin = 7.14
+			xmax = 7.36
+			text = "båt"
+		intervals [11]:
+			xmin = 7.36
+			xmax = 8.84
+			text = ""
+		intervals [12]:
+			xmin = 8.84
+			xmax = 9.15
+			text = "hånd"
+		intervals [13]:
+			xmin = 9.15
+			xmax = 10.36
+			text = ""
+		intervals [14]:
+			xmin = 10.36
+			xmax = 10.8
+			text = "hus"
+		intervals [15]:
+			xmin = 10.8
+			xmax = 11.92
+			text = ""
+		intervals [16]:
+			xmin = 11.92
+			xmax = 12.15
+			text = "gutt"
+		intervals [17]:
+			xmin = 12.15
+			xmax = 13.65
+			text = ""
+		intervals [18]:
+			xmin = 13.65
+			xmax = 13.95
+			text = "hus"
+		intervals [19]:
+			xmin = 13.95
+			xmax = 15.41
+			text = ""
+		intervals [20]:
+			xmin = 15.41
+			xmax = 15.62
+			text = "gutt"
+		intervals [21]:
+			xmin = 15.62
+			xmax = 17.14
+			text = ""
+		intervals [22]:
+			xmin = 17.14
+			xmax = 17.45
+			text = "hus"
+		intervals [23]:
+			xmin = 17.45
+			xmax = 18.98
+			text = ""
+		intervals [24]:
+			xmin = 18.98
+			xmax = 19.31
+			text = "hånd"
+		intervals [25]:
+			xmin = 19.31
+			xmax = 20.78
+			text = ""
+		intervals [26]:
+			xmin = 20.78
+			xmax = 21.06
+			text = "gutt"
+		intervals [27]:
+			xmin = 21.06
+			xmax = 22.74
+			text = ""
+		intervals [28]:
+			xmin = 22.74
+			xmax = 23.03
+			text = "båt"
+		intervals [29]:
+			xmin = 23.03
+			xmax = 24.61
+			text = ""
+		intervals [30]:
+			xmin = 24.61
+			xmax = 24.99
+			text = "hus"
+		intervals [31]:
+			xmin = 24.99
+			xmax = 26.56
+			text = ""
+		intervals [32]:
+			xmin = 26.56
+			xmax = 26.86
+			text = "gutt"
+		intervals [33]:
+			xmin = 26.86
+			xmax = 28.39872
+			text = ""
+		intervals [34]:
+			xmin = 28.39872
+			xmax = 28.718656
+			text = "hånd"
+		intervals [35]:
+			xmin = 28.718656
+			xmax = 30.358328
+			text = ""
+		intervals [36]:
+			xmin = 30.358328
+			xmax = 30.608278
+			text = "båt"
+		intervals [37]:
+			xmin = 30.608278
+			xmax = 32.357928
+			text = ""
+		intervals [38]:
+			xmin = 32.357928
+			xmax = 32.777844
+			text = "hus"
+		intervals [39]:
+			xmin = 32.777844
+			xmax = 34.229754
+			text = ""
+		intervals [40]:
+			xmin = 34.229754
+			xmax = 34.509698
+			text = "hånd"
+		intervals [41]:
+			xmin = 34.509698
+			xmax = 36.009398
+			text = ""
+		intervals [42]:
+			xmin = 36.009398
+			xmax = 36.269346
+			text = "båt"
+		intervals [43]:
+			xmin = 36.269346
+			xmax = 37.859028
+			text = ""
+		intervals [44]:
+			xmin = 37.859028
+			xmax = 38.118976
+			text = "hus"
+		intervals [45]:
+			xmin = 38.118976
+			xmax = 39.79864
+			text = ""
+		intervals [46]:
+			xmin = 39.79864
+			xmax = 40.108578
+			text = "hånd"
+		intervals [47]:
+			xmin = 40.108578
+			xmax = 41.74825
+			text = ""
+		intervals [48]:
+			xmin = 41.74825
+			xmax = 42.018196
+			text = "båt"
+		intervals [49]:
+			xmin = 42.018196
+			xmax = 43.667866
+			text = ""
+		intervals [50]:
+			xmin = 43.667866
+			xmax = 43.937812
+			text = "gutt"
+		intervals [51]:
+			xmin = 43.937812
+			xmax = 45.809638
+			text = ""
+		intervals [52]:
+			xmin = 45.809638
+			xmax = 46.069586
+			text = "båt"
+		intervals [53]:
+			xmin = 46.069586
+			xmax = 47.79924
+			text = ""
+		intervals [54]:
+			xmin = 47.79924
+			xmax = 48.04919
+			text = "gutt"
+		intervals [55]:
+			xmin = 48.04919
+			xmax = 49.788842
+			text = ""
+		intervals [56]:
+			xmin = 49.788842
+			xmax = 50.088782
+			text = "hus"
+		intervals [57]:
+			xmin = 50.088782
+			xmax = 51.858428
+			text = ""
+		intervals [58]:
+			xmin = 51.858428
+			xmax = 52.178364
+			text = "gutt"
+		intervals [59]:
+			xmin = 52.178364
+			xmax = 53.868026
+			text = ""
+		intervals [60]:
+			xmin = 53.868026
+			xmax = 54.227954
+			text = "hånd"
+		intervals [61]:
+			xmin = 54.227954
+			xmax = 55.859828
+			text = ""
+		intervals [62]:
+			xmin = 55.859828
+			xmax = 56.129774
+			text = "båt"
+		intervals [63]:
+			xmin = 56.129774
+			xmax = 57.809438
+			text = ""
+		intervals [64]:
+			xmin = 57.809438
+			xmax = 58.179364
+			text = "hånd"
+		intervals [65]:
+			xmin = 58.179364
+			xmax = 59.719056
+			text = ""
+		intervals [66]:
+			xmin = 59.719056
+			xmax = 60.028994
+			text = "gutt"
+		intervals [67]:
+			xmin = 60.028994
+			xmax = 61.738652
+			text = ""
+		intervals [68]:
+			xmin = 61.738652
+			xmax = 62.118576
+			text = "hånd"
+		intervals [69]:
+			xmin = 62.118576
+			xmax = 63.64827
+			text = ""
+		intervals [70]:
+			xmin = 63.64827
+			xmax = 63.978204
+			text = "hus"
+		intervals [71]:
+			xmin = 63.978204
+			xmax = 66.080016
+			text = ""
+		intervals [72]:
+			xmin = 66.080016
+			xmax = 66.20004
+			text = "båt"
+		intervals [73]:
+			xmin = 66.20004
+			xmax = 66.432
+			text = ""

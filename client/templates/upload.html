@@ -1,0 +1,40 @@
+
+<style>
+    body {text-align:center}
+    a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+    a:hover, a:active {
+      background-color: green;
+      color: white;
+    }
+    
+</style>
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Long Audio Alignment</h1>
+
+    <form action="/{{lang}}/uploadfiles/" enctype="multipart/form-data" method="post">
+        <h2>Upload Audio Files</h2>
+
+        <input name="audios" type="file" multiple>
+        <h2>Upload Respose Texts</h2>
+
+        <input name="texts" type="file" multiple>
+        <p></p> 
+
+        <input type="submit">
+    </form>
+
+
+</body>

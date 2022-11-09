@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    body {text-align:center}
+    a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+    a:hover, a:active {
+      background-color: green;
+      color: white;
+    }
+    
+</style>
+<!-- <script>
+$("#download").click(function () {
+   $("#downloadFile")[0].click();
+   window.location.href = "/abc.html"; // change to the desired URL
+});
+</script> -->
+
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<script>
+function refreshPage(){
+  window.location.reload();
+} 
+
+</script>
+
+<body>
+    <h1>Long Audio Alignment</h1>
+    <h2>Aligned Files</h2>
+     <form method="POST" action="/done_dropdown/{{lang}}">
+        <select name="file">
+      <option value="{{done[0]}}" selected>{{done[0]}}</option>
+      {% for file in done[1:] %}
+        <option value="{{file}}">{{file}}</option>
+      {% endfor %}
+        </select>
+      <input type="submit" onClick="refreshPage()" value ="Download">
+
+      <h3>{{fin}} out of {{all}} files are ready to download!</h3>
+
+
+      
+      </form>
+      <br></br>
+      <a href='/{{lang}}/download_zip' target="_blank">Download Zip</a> 
+
+      <br></br>
+      <a href='/' target="_blank">Align new files</a> 
+</body>
+</html>

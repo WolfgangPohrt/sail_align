@@ -1,0 +1,3 @@
+[console_scripts]
+phonetisaurus = phonetisaurus.__main__:main
+

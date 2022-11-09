@@ -1,0 +1,2482 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 122.0693125
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0
+		xmax = 122.0693125
+		intervals: size = 617
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.86
+			text = ""
+		intervals [2]:
+			xmin = 0.86
+			xmax = 0.959
+			text = "en"
+		intervals [3]:
+			xmin = 0.959
+			xmax = 0.96
+			text = ""
+		intervals [4]:
+			xmin = 0.96
+			xmax = 1.3290000000000002
+			text = "lørdag"
+		intervals [5]:
+			xmin = 1.3290000000000002
+			xmax = 1.33
+			text = ""
+		intervals [6]:
+			xmin = 1.33
+			xmax = 1.3390000000000002
+			text = "i"
+		intervals [7]:
+			xmin = 1.3390000000000002
+			xmax = 1.34
+			text = ""
+		intervals [8]:
+			xmin = 1.34
+			xmax = 1.7890000000000001
+			text = "sommer"
+		intervals [9]:
+			xmin = 1.7890000000000001
+			xmax = 1.79
+			text = ""
+		intervals [10]:
+			xmin = 1.79
+			xmax = 2.109
+			text = "skulle"
+		intervals [11]:
+			xmin = 2.109
+			xmax = 2.11
+			text = ""
+		intervals [12]:
+			xmin = 2.11
+			xmax = 2.2390000000000003
+			text = "jeg"
+		intervals [13]:
+			xmin = 2.2390000000000003
+			xmax = 2.24
+			text = ""
+		intervals [14]:
+			xmin = 2.24
+			xmax = 2.499
+			text = "hjelpe"
+		intervals [15]:
+			xmin = 2.499
+			xmax = 2.5
+			text = ""
+		intervals [16]:
+			xmin = 2.5
+			xmax = 2.77
+			text = "mamma"
+		intervals [17]:
+			xmin = 2.77
+			xmax = 2.83
+			text = ""
+		intervals [18]:
+			xmin = 2.83
+			xmax = 3.15
+			text = "under"
+		intervals [19]:
+			xmin = 3.15
+			xmax = 3.16
+			text = ""
+		intervals [20]:
+			xmin = 3.16
+			xmax = 4.72
+			text = "lokalhistorisk"
+		intervals [21]:
+			xmin = 4.72
+			xmax = 4.79
+			text = ""
+		intervals [22]:
+			xmin = 4.79
+			xmax = 5.039
+			text = "kveld"
+		intervals [23]:
+			xmin = 5.039
+			xmax = 5.04
+			text = ""
+		intervals [24]:
+			xmin = 5.04
+			xmax = 5.169
+			text = "på"
+		intervals [25]:
+			xmin = 5.169
+			xmax = 5.17
+			text = ""
+		intervals [26]:
+			xmin = 5.17
+			xmax = 5.97
+			text = "gamlehjemmet"
+		intervals [27]:
+			xmin = 5.97
+			xmax = 6.24
+			text = ""
+		intervals [28]:
+			xmin = 6.24
+			xmax = 6.31
+			text = "vi"
+		intervals [29]:
+			xmin = 6.31
+			xmax = 6.33
+			text = ""
+		intervals [30]:
+			xmin = 6.33
+			xmax = 6.689
+			text = "samlet"
+		intervals [31]:
+			xmin = 6.689
+			xmax = 6.69
+			text = ""
+		intervals [32]:
+			xmin = 6.69
+			xmax = 6.829
+			text = "oss"
+		intervals [33]:
+			xmin = 6.829
+			xmax = 6.83
+			text = ""
+		intervals [34]:
+			xmin = 6.83
+			xmax = 6.9
+			text = "i"
+		intervals [35]:
+			xmin = 6.9
+			xmax = 6.91
+			text = ""
+		intervals [36]:
+			xmin = 6.91
+			xmax = 7.44
+			text = "stua"
+		intervals [37]:
+			xmin = 7.44
+			xmax = 8.53
+			text = ""
+		intervals [38]:
+			xmin = 8.53
+			xmax = 8.639000000000001
+			text = "på"
+		intervals [39]:
+			xmin = 8.639000000000001
+			xmax = 8.64
+			text = ""
+		intervals [40]:
+			xmin = 8.64
+			xmax = 9.109
+			text = "avdeling"
+		intervals [41]:
+			xmin = 9.109
+			xmax = 9.11
+			text = ""
+		intervals [42]:
+			xmin = 9.11
+			xmax = 9.43
+			text = "fire"
+		intervals [43]:
+			xmin = 9.43
+			xmax = 9.49
+			text = ""
+		intervals [44]:
+			xmin = 9.49
+			xmax = 9.639000000000001
+			text = "jeg"
+		intervals [45]:
+			xmin = 9.639000000000001
+			xmax = 9.64
+			text = ""
+		intervals [46]:
+			xmin = 9.64
+			xmax = 9.86
+			text = "skulle"
+		intervals [47]:
+			xmin = 9.86
+			xmax = 9.879998
+			text = ""
+		intervals [48]:
+			xmin = 9.879998
+			xmax = 10.388947
+			text = "servere"
+		intervals [49]:
+			xmin = 10.388947
+			xmax = 10.389947
+			text = ""
+		intervals [50]:
+			xmin = 10.389947
+			xmax = 11.148871
+			text = "blåbærsaft"
+		intervals [51]:
+			xmin = 11.148871
+			xmax = 11.149871
+			text = ""
+		intervals [52]:
+			xmin = 11.149871
+			xmax = 11.219864
+			text = "og"
+		intervals [53]:
+			xmin = 11.219864
+			xmax = 11.23
+			text = ""
+		intervals [54]:
+			xmin = 11.23
+			xmax = 11.68
+			text = "vafler"
+		intervals [55]:
+			xmin = 11.68
+			xmax = 11.99
+			text = ""
+		intervals [56]:
+			xmin = 11.99
+			xmax = 12.059000000000001
+			text = "en"
+		intervals [57]:
+			xmin = 12.059000000000001
+			xmax = 12.06
+			text = ""
+		intervals [58]:
+			xmin = 12.06
+			xmax = 12.319
+			text = "gammel"
+		intervals [59]:
+			xmin = 12.319
+			xmax = 12.32
+			text = ""
+		intervals [60]:
+			xmin = 12.32
+			xmax = 12.539
+			text = "dame"
+		intervals [61]:
+			xmin = 12.539
+			xmax = 12.54
+			text = ""
+		intervals [62]:
+			xmin = 12.54
+			xmax = 12.729000000000001
+			text = "som"
+		intervals [63]:
+			xmin = 12.729000000000001
+			xmax = 12.73
+			text = ""
+		intervals [64]:
+			xmin = 12.73
+			xmax = 12.949
+			text = "bodde"
+		intervals [65]:
+			xmin = 12.949
+			xmax = 12.95
+			text = ""
+		intervals [66]:
+			xmin = 12.95
+			xmax = 13.089
+			text = "på"
+		intervals [67]:
+			xmin = 13.089
+			xmax = 13.09
+			text = ""
+		intervals [68]:
+			xmin = 13.09
+			xmax = 13.409
+			text = "hjemmet"
+		intervals [69]:
+			xmin = 13.409
+			xmax = 13.41
+			text = ""
+		intervals [70]:
+			xmin = 13.41
+			xmax = 13.629000000000001
+			text = "skulle"
+		intervals [71]:
+			xmin = 13.629000000000001
+			xmax = 13.63
+			text = ""
+		intervals [72]:
+			xmin = 13.63
+			xmax = 14.119
+			text = "fortelle"
+		intervals [73]:
+			xmin = 14.119
+			xmax = 14.12
+			text = ""
+		intervals [74]:
+			xmin = 14.12
+			xmax = 14.27
+			text = "om"
+		intervals [75]:
+			xmin = 14.27
+			xmax = 17.519675
+			text = ""
+		intervals [76]:
+			xmin = 17.519675
+			xmax = 17.779649
+			text = "skikk"
+		intervals [77]:
+			xmin = 17.779649
+			xmax = 19.019525
+			text = ""
+		intervals [78]:
+			xmin = 19.019525
+			xmax = 19.188508
+			text = "og"
+		intervals [79]:
+			xmin = 19.188508
+			xmax = 19.189508
+			text = ""
+		intervals [80]:
+			xmin = 19.189508
+			xmax = 19.56947
+			text = "bruk"
+		intervals [81]:
+			xmin = 19.56947
+			xmax = 20.089418
+			text = ""
+		intervals [82]:
+			xmin = 20.089418
+			xmax = 20.308396
+			text = "i"
+		intervals [83]:
+			xmin = 20.308396
+			xmax = 20.309396
+			text = ""
+		intervals [84]:
+			xmin = 20.309396
+			xmax = 21.089318
+			text = "brylluper"
+		intervals [85]:
+			xmin = 21.089318
+			xmax = 21.479279
+			text = ""
+		intervals [86]:
+			xmin = 21.479279
+			xmax = 21.608266
+			text = "hun"
+		intervals [87]:
+			xmin = 21.608266
+			xmax = 21.6093
+			text = ""
+		intervals [88]:
+			xmin = 21.6093
+			xmax = 21.9382
+			text = "het"
+		intervals [89]:
+			xmin = 21.9382
+			xmax = 21.9392
+			text = ""
+		intervals [90]:
+			xmin = 21.9392
+			xmax = 22.2682
+			text = "!!unk"
+		intervals [91]:
+			xmin = 22.2682
+			xmax = 22.2692
+			text = ""
+		intervals [92]:
+			xmin = 22.2692
+			xmax = 22.5982
+			text = "og"
+		intervals [93]:
+			xmin = 22.5982
+			xmax = 22.5992
+			text = ""
+		intervals [94]:
+			xmin = 22.5992
+			xmax = 22.928099999999997
+			text = "rakk"
+		intervals [95]:
+			xmin = 22.928099999999997
+			xmax = 22.9291
+			text = ""
+		intervals [96]:
+			xmin = 22.9291
+			xmax = 23.2581
+			text = "meg"
+		intervals [97]:
+			xmin = 23.2581
+			xmax = 23.2591
+			text = ""
+		intervals [98]:
+			xmin = 23.2591
+			xmax = 23.588099999999997
+			text = "bare"
+		intervals [99]:
+			xmin = 23.588099999999997
+			xmax = 23.5891
+			text = ""
+		intervals [100]:
+			xmin = 23.5891
+			xmax = 23.918
+			text = "til"
+		intervals [101]:
+			xmin = 23.918
+			xmax = 23.919035
+			text = ""
+		intervals [102]:
+			xmin = 23.919035
+			xmax = 24.707956
+			text = "skulderen"
+		intervals [103]:
+			xmin = 24.707956
+			xmax = 24.708956
+			text = ""
+		intervals [104]:
+			xmin = 24.708956
+			xmax = 25.257901
+			text = "hun"
+		intervals [105]:
+			xmin = 25.257901
+			xmax = 25.258901
+			text = ""
+		intervals [106]:
+			xmin = 25.258901
+			xmax = 25.638863
+			text = "minnet"
+		intervals [107]:
+			xmin = 25.638863
+			xmax = 25.679264
+			text = ""
+		intervals [108]:
+			xmin = 25.679264
+			xmax = 25.918215999999997
+			text = "meg"
+		intervals [109]:
+			xmin = 25.918215999999997
+			xmax = 25.919216
+			text = ""
+		intervals [110]:
+			xmin = 25.919216
+			xmax = 25.988201999999998
+			text = "om"
+		intervals [111]:
+			xmin = 25.988201999999998
+			xmax = 25.989202
+			text = ""
+		intervals [112]:
+			xmin = 25.989202
+			xmax = 26.108178
+			text = "en"
+		intervals [113]:
+			xmin = 26.108178
+			xmax = 26.109178
+			text = ""
+		intervals [114]:
+			xmin = 26.109178
+			xmax = 26.518096
+			text = "søt"
+		intervals [115]:
+			xmin = 26.518096
+			xmax = 26.519096
+			text = ""
+		intervals [116]:
+			xmin = 26.519096
+			xmax = 26.79804
+			text = "liten"
+		intervals [117]:
+			xmin = 26.79804
+			xmax = 26.79904
+			text = ""
+		intervals [118]:
+			xmin = 26.79904
+			xmax = 27.14897
+			text = "dukke"
+		intervals [119]:
+			xmin = 27.14897
+			xmax = 27.9988
+			text = ""
+		intervals [120]:
+			xmin = 27.9988
+			xmax = 28.127774
+			text = "da"
+		intervals [121]:
+			xmin = 28.127774
+			xmax = 28.1288
+			text = ""
+		intervals [122]:
+			xmin = 28.1288
+			xmax = 28.528699999999997
+			text = "det"
+		intervals [123]:
+			xmin = 28.528699999999997
+			xmax = 28.5297
+			text = ""
+		intervals [124]:
+			xmin = 28.5297
+			xmax = 28.929599999999997
+			text = "skulle"
+		intervals [125]:
+			xmin = 28.929599999999997
+			xmax = 28.9306
+			text = ""
+		intervals [126]:
+			xmin = 28.9306
+			xmax = 29.330499999999997
+			text = "begynne"
+		intervals [127]:
+			xmin = 29.330499999999997
+			xmax = 29.3315
+			text = ""
+		intervals [128]:
+			xmin = 29.3315
+			xmax = 29.7315
+			text = "så"
+		intervals [129]:
+			xmin = 29.7315
+			xmax = 29.7325
+			text = ""
+		intervals [130]:
+			xmin = 29.7325
+			xmax = 30.1324
+			text = "jeg"
+		intervals [131]:
+			xmin = 30.1324
+			xmax = 30.1334
+			text = ""
+		intervals [132]:
+			xmin = 30.1334
+			xmax = 30.5333
+			text = "at"
+		intervals [133]:
+			xmin = 30.5333
+			xmax = 30.5343
+			text = ""
+		intervals [134]:
+			xmin = 30.5343
+			xmax = 30.934199999999997
+			text = "!!unk"
+		intervals [135]:
+			xmin = 30.934199999999997
+			xmax = 30.9352
+			text = ""
+		intervals [136]:
+			xmin = 30.9352
+			xmax = 31.335099999999997
+			text = "festet"
+		intervals [137]:
+			xmin = 31.335099999999997
+			xmax = 31.3361
+			text = ""
+		intervals [138]:
+			xmin = 31.3361
+			xmax = 31.7361
+			text = "en"
+		intervals [139]:
+			xmin = 31.7361
+			xmax = 31.7371
+			text = ""
+		intervals [140]:
+			xmin = 31.7371
+			xmax = 32.137
+			text = "!!unk"
+		intervals [141]:
+			xmin = 32.137
+			xmax = 32.137972
+			text = ""
+		intervals [142]:
+			xmin = 32.137972
+			xmax = 32.516896
+			text = "rundt"
+		intervals [143]:
+			xmin = 32.516896
+			xmax = 32.517896
+			text = ""
+		intervals [144]:
+			xmin = 32.517896
+			xmax = 32.987802
+			text = "hodet"
+		intervals [145]:
+			xmin = 32.987802
+			xmax = 33.04999
+			text = ""
+		intervals [146]:
+			xmin = 33.04999
+			xmax = 33.318936
+			text = "jeg"
+		intervals [147]:
+			xmin = 33.318936
+			xmax = 33.319936
+			text = ""
+		intervals [148]:
+			xmin = 33.319936
+			xmax = 33.708858
+			text = "fikk"
+		intervals [149]:
+			xmin = 33.708858
+			xmax = 33.709858
+			text = ""
+		intervals [150]:
+			xmin = 33.709858
+			xmax = 33.778844
+			text = "helt"
+		intervals [151]:
+			xmin = 33.778844
+			xmax = 33.779844
+			text = ""
+		intervals [152]:
+			xmin = 33.779844
+			xmax = 34.54869
+			text = "bakoversveis"
+		intervals [153]:
+			xmin = 34.54869
+			xmax = 34.54969
+			text = ""
+		intervals [154]:
+			xmin = 34.54969
+			xmax = 35.998400000000004
+			text = "!!unk"
+		intervals [155]:
+			xmin = 35.998400000000004
+			xmax = 35.9994
+			text = ""
+		intervals [156]:
+			xmin = 35.9994
+			xmax = 36.4993
+			text = "merket"
+		intervals [157]:
+			xmin = 36.4993
+			xmax = 36.939212
+			text = ""
+		intervals [158]:
+			xmin = 36.939212
+			xmax = 37.14817
+			text = "at"
+		intervals [159]:
+			xmin = 37.14817
+			xmax = 37.14917
+			text = ""
+		intervals [160]:
+			xmin = 37.14917
+			xmax = 37.269146
+			text = "jeg"
+		intervals [161]:
+			xmin = 37.269146
+			xmax = 37.779044
+			text = ""
+		intervals [162]:
+			xmin = 37.779044
+			xmax = 38.307938
+			text = "stirret"
+		intervals [163]:
+			xmin = 38.307938
+			xmax = 38.308938
+			text = ""
+		intervals [164]:
+			xmin = 38.308938
+			xmax = 38.477904
+			text = "men"
+		intervals [165]:
+			xmin = 38.477904
+			xmax = 38.478904
+			text = ""
+		intervals [166]:
+			xmin = 38.478904
+			xmax = 38.607878
+			text = "hun"
+		intervals [167]:
+			xmin = 38.607878
+			xmax = 38.608878
+			text = ""
+		intervals [168]:
+			xmin = 38.608878
+			xmax = 38.837832
+			text = "bare"
+		intervals [169]:
+			xmin = 38.837832
+			xmax = 38.838832
+			text = ""
+		intervals [170]:
+			xmin = 38.838832
+			xmax = 39.057788
+			text = "lo"
+		intervals [171]:
+			xmin = 39.057788
+			xmax = 39.058788
+			text = ""
+		intervals [172]:
+			xmin = 39.058788
+			xmax = 39.177764
+			text = "og"
+		intervals [173]:
+			xmin = 39.177764
+			xmax = 39.178764
+			text = ""
+		intervals [174]:
+			xmin = 39.178764
+			xmax = 39.357728
+			text = "sa"
+		intervals [175]:
+			xmin = 39.357728
+			xmax = 39.358728
+			text = ""
+		intervals [176]:
+			xmin = 39.358728
+			xmax = 39.738652
+			text = "jeg"
+		intervals [177]:
+			xmin = 39.738652
+			xmax = 39.808638
+			text = ""
+		intervals [178]:
+			xmin = 39.808638
+			xmax = 39.937612
+			text = "er"
+		intervals [179]:
+			xmin = 39.937612
+			xmax = 39.938612
+			text = ""
+		intervals [180]:
+			xmin = 39.938612
+			xmax = 40.19756
+			text = "snart"
+		intervals [181]:
+			xmin = 40.19756
+			xmax = 40.19856
+			text = ""
+		intervals [182]:
+			xmin = 40.19856
+			xmax = 40.54749
+			text = "hundre"
+		intervals [183]:
+			xmin = 40.54749
+			xmax = 40.54849
+			text = ""
+		intervals [184]:
+			xmin = 40.54849
+			xmax = 40.787442000000006
+			text = "år"
+		intervals [185]:
+			xmin = 40.787442000000006
+			xmax = 40.788442
+			text = ""
+		intervals [186]:
+			xmin = 40.788442
+			xmax = 40.978404
+			text = "så"
+		intervals [187]:
+			xmin = 40.978404
+			xmax = 41.64827
+			text = ""
+		intervals [188]:
+			xmin = 41.64827
+			xmax = 41.788242
+			text = "jeg"
+		intervals [189]:
+			xmin = 41.788242
+			xmax = 41.84823
+			text = ""
+		intervals [190]:
+			xmin = 41.84823
+			xmax = 42.088182
+			text = "kan"
+		intervals [191]:
+			xmin = 42.088182
+			xmax = 42.108178
+			text = ""
+		intervals [192]:
+			xmin = 42.108178
+			xmax = 42.417116
+			text = "vel"
+		intervals [193]:
+			xmin = 42.417116
+			xmax = 42.418116
+			text = ""
+		intervals [194]:
+			xmin = 42.418116
+			xmax = 43.437912
+			text = "gjenbruke"
+		intervals [195]:
+			xmin = 43.437912
+			xmax = 43.727854
+			text = ""
+		intervals [196]:
+			xmin = 43.727854
+			xmax = 44.067786
+			text = "en"
+		intervals [197]:
+			xmin = 44.067786
+			xmax = 44.079984
+			text = ""
+		intervals [198]:
+			xmin = 44.079984
+			xmax = 44.368926
+			text = "pen"
+		intervals [199]:
+			xmin = 44.368926
+			xmax = 44.369926
+			text = ""
+		intervals [200]:
+			xmin = 44.369926
+			xmax = 44.739852
+			text = "gardin"
+		intervals [201]:
+			xmin = 44.739852
+			xmax = 44.759856
+			text = ""
+		intervals [202]:
+			xmin = 44.759856
+			xmax = 45.069918
+			text = "som"
+		intervals [203]:
+			xmin = 45.069918
+			xmax = 45.449994
+			text = ""
+		intervals [204]:
+			xmin = 45.449994
+			xmax = 46.299164000000005
+			text = "brudeslør"
+		intervals [205]:
+			xmin = 46.299164000000005
+			xmax = 46.300164
+			text = ""
+		intervals [206]:
+			xmin = 46.300164
+			xmax = 46.650234
+			text = "hvis"
+		intervals [207]:
+			xmin = 46.650234
+			xmax = 46.689462
+			text = ""
+		intervals [208]:
+			xmin = 46.689462
+			xmax = 46.838432000000005
+			text = "jeg"
+		intervals [209]:
+			xmin = 46.838432000000005
+			xmax = 46.839432
+			text = ""
+		intervals [210]:
+			xmin = 46.839432
+			xmax = 47.129374
+			text = "vil"
+		intervals [211]:
+			xmin = 47.129374
+			xmax = 47.489302
+			text = ""
+		intervals [212]:
+			xmin = 47.489302
+			xmax = 48.04919
+			text = "gardinen"
+		intervals [213]:
+			xmin = 48.04919
+			xmax = 48.069186
+			text = ""
+		intervals [214]:
+			xmin = 48.069186
+			xmax = 48.24915
+			text = "var"
+		intervals [215]:
+			xmin = 48.24915
+			xmax = 48.709058
+			text = ""
+		intervals [216]:
+			xmin = 48.709058
+			xmax = 49.057988
+			text = "ganske"
+		intervals [217]:
+			xmin = 49.057988
+			xmax = 49.058988
+			text = ""
+		intervals [218]:
+			xmin = 49.058988
+			xmax = 49.508898
+			text = "flekkete"
+		intervals [219]:
+			xmin = 49.508898
+			xmax = 49.518896
+			text = ""
+		intervals [220]:
+			xmin = 49.518896
+			xmax = 49.688862
+			text = "men"
+		intervals [221]:
+			xmin = 49.688862
+			xmax = 49.74885
+			text = ""
+		intervals [222]:
+			xmin = 49.74885
+			xmax = 50.268746
+			text = "jeg"
+		intervals [223]:
+			xmin = 50.268746
+			xmax = 50.468706
+			text = ""
+		intervals [224]:
+			xmin = 50.468706
+			xmax = 51.257548
+			text = "unnlot"
+		intervals [225]:
+			xmin = 51.257548
+			xmax = 51.258548
+			text = ""
+		intervals [226]:
+			xmin = 51.258548
+			xmax = 51.677464
+			text = "høflig"
+		intervals [227]:
+			xmin = 51.677464
+			xmax = 51.6785
+			text = ""
+		intervals [228]:
+			xmin = 51.6785
+			xmax = 52.025000000000006
+			text = "å"
+		intervals [229]:
+			xmin = 52.025000000000006
+			xmax = 52.026
+			text = ""
+		intervals [230]:
+			xmin = 52.026
+			xmax = 52.372600000000006
+			text = "si"
+		intervals [231]:
+			xmin = 52.372600000000006
+			xmax = 52.3736
+			text = ""
+		intervals [232]:
+			xmin = 52.3736
+			xmax = 52.720200000000006
+			text = "det"
+		intervals [233]:
+			xmin = 52.720200000000006
+			xmax = 52.7212
+			text = ""
+		intervals [234]:
+			xmin = 52.7212
+			xmax = 53.0677
+			text = "!!unk"
+		intervals [235]:
+			xmin = 53.0677
+			xmax = 53.068742
+			text = ""
+		intervals [236]:
+			xmin = 53.068742
+			xmax = 53.527834000000006
+			text = "pekte"
+		intervals [237]:
+			xmin = 53.527834000000006
+			xmax = 53.528834
+			text = ""
+		intervals [238]:
+			xmin = 53.528834
+			xmax = 53.778884
+			text = "mot"
+		intervals [239]:
+			xmin = 53.778884
+			xmax = 53.848898
+			text = ""
+		intervals [240]:
+			xmin = 53.848898
+			xmax = 54.217972
+			text = "tv"
+		intervals [241]:
+			xmin = 54.217972
+			xmax = 54.218972
+			text = ""
+		intervals [242]:
+			xmin = 54.218972
+			xmax = 54.979124
+			text = "apparatet"
+		intervals [243]:
+			xmin = 54.979124
+			xmax = 55.289186
+			text = ""
+		intervals [244]:
+			xmin = 55.289186
+			xmax = 55.388206000000004
+			text = "jeg"
+		intervals [245]:
+			xmin = 55.388206000000004
+			xmax = 55.389206
+			text = ""
+		intervals [246]:
+			xmin = 55.389206
+			xmax = 55.608250000000005
+			text = "skal"
+		intervals [247]:
+			xmin = 55.608250000000005
+			xmax = 55.60925
+			text = ""
+		intervals [248]:
+			xmin = 55.60925
+			xmax = 55.968322
+			text = "vise"
+		intervals [249]:
+			xmin = 55.968322
+			xmax = 55.969322
+			text = ""
+		intervals [250]:
+			xmin = 55.969322
+			xmax = 56.20937
+			text = "dere"
+		intervals [251]:
+			xmin = 56.20937
+			xmax = 56.219756
+			text = ""
+		intervals [252]:
+			xmin = 56.219756
+			xmax = 56.489702
+			text = "noe"
+		intervals [253]:
+			xmin = 56.489702
+			xmax = 56.569686
+			text = ""
+		intervals [254]:
+			xmin = 56.569686
+			xmax = 57.118576000000004
+			text = "virkelig"
+		intervals [255]:
+			xmin = 57.118576000000004
+			xmax = 57.119576
+			text = ""
+		intervals [256]:
+			xmin = 57.119576
+			xmax = 57.919416
+			text = "historisk"
+		intervals [257]:
+			xmin = 57.919416
+			xmax = 58.109378
+			text = ""
+		intervals [258]:
+			xmin = 58.109378
+			xmax = 58.368326
+			text = "dette"
+		intervals [259]:
+			xmin = 58.368326
+			xmax = 58.369326
+			text = ""
+		intervals [260]:
+			xmin = 58.369326
+			xmax = 58.428314
+			text = "er"
+		intervals [261]:
+			xmin = 58.428314
+			xmax = 58.429314
+			text = ""
+		intervals [262]:
+			xmin = 58.429314
+			xmax = 58.54829
+			text = "en"
+		intervals [263]:
+			xmin = 58.54829
+			xmax = 58.54929
+			text = ""
+		intervals [264]:
+			xmin = 58.54929
+			xmax = 58.828234
+			text = "film"
+		intervals [265]:
+			xmin = 58.828234
+			xmax = 58.829234
+			text = ""
+		intervals [266]:
+			xmin = 58.829234
+			xmax = 58.998200000000004
+			text = "fra"
+		intervals [267]:
+			xmin = 58.998200000000004
+			xmax = 58.9992
+			text = ""
+		intervals [268]:
+			xmin = 58.9992
+			xmax = 59.318136
+			text = "nitten"
+		intervals [269]:
+			xmin = 59.318136
+			xmax = 59.319136
+			text = ""
+		intervals [270]:
+			xmin = 59.319136
+			xmax = 59.54809
+			text = "førti"
+		intervals [271]:
+			xmin = 59.54809
+			xmax = 59.54909
+			text = ""
+		intervals [272]:
+			xmin = 59.54909
+			xmax = 59.739052
+			text = "sju"
+		intervals [273]:
+			xmin = 59.739052
+			xmax = 60.22915
+			text = ""
+		intervals [274]:
+			xmin = 60.22915
+			xmax = 60.348174
+			text = "det"
+		intervals [275]:
+			xmin = 60.348174
+			xmax = 60.349174
+			text = ""
+		intervals [276]:
+			xmin = 60.349174
+			xmax = 60.357928
+			text = "vi"
+		intervals [277]:
+			xmin = 60.357928
+			xmax = 60.358928
+			text = ""
+		intervals [278]:
+			xmin = 60.358928
+			xmax = 60.608878
+			text = "ser"
+		intervals [279]:
+			xmin = 60.608878
+			xmax = 60.668866
+			text = ""
+		intervals [280]:
+			xmin = 60.668866
+			xmax = 60.9988
+			text = "her"
+		intervals [281]:
+			xmin = 60.9988
+			xmax = 61.988602
+			text = ""
+		intervals [282]:
+			xmin = 61.988602
+			xmax = 62.19756
+			text = "er"
+		intervals [283]:
+			xmin = 62.19756
+			xmax = 62.19856
+			text = ""
+		intervals [284]:
+			xmin = 62.19856
+			xmax = 62.328534
+			text = "en"
+		intervals [285]:
+			xmin = 62.328534
+			xmax = 62.368526
+			text = ""
+		intervals [286]:
+			xmin = 62.368526
+			xmax = 62.767446
+			text = "prins"
+		intervals [287]:
+			xmin = 62.767446
+			xmax = 62.768446
+			text = ""
+		intervals [288]:
+			xmin = 62.768446
+			xmax = 62.918416
+			text = "fra"
+		intervals [289]:
+			xmin = 62.918416
+			xmax = 62.978404
+			text = ""
+		intervals [290]:
+			xmin = 62.978404
+			xmax = 63.247350000000004
+			text = "landet"
+		intervals [291]:
+			xmin = 63.247350000000004
+			xmax = 63.24835
+			text = ""
+		intervals [292]:
+			xmin = 63.24835
+			xmax = 63.507298000000006
+			text = "mitt"
+		intervals [293]:
+			xmin = 63.507298000000006
+			xmax = 63.508298
+			text = ""
+		intervals [294]:
+			xmin = 63.508298
+			xmax = 63.84723
+			text = "som"
+		intervals [295]:
+			xmin = 63.84723
+			xmax = 63.84823
+			text = ""
+		intervals [296]:
+			xmin = 63.84823
+			xmax = 64.257148
+			text = "gifter"
+		intervals [297]:
+			xmin = 64.257148
+			xmax = 64.258148
+			text = ""
+		intervals [298]:
+			xmin = 64.258148
+			xmax = 64.49709999999999
+			text = "seg"
+		intervals [299]:
+			xmin = 64.49709999999999
+			xmax = 64.4981
+			text = ""
+		intervals [300]:
+			xmin = 64.4981
+			xmax = 64.59707999999999
+			text = "med"
+		intervals [301]:
+			xmin = 64.59707999999999
+			xmax = 64.59808
+			text = ""
+		intervals [302]:
+			xmin = 64.59808
+			xmax = 64.677064
+			text = "en"
+		intervals [303]:
+			xmin = 64.677064
+			xmax = 64.678064
+			text = ""
+		intervals [304]:
+			xmin = 64.678064
+			xmax = 64.997
+			text = "helt"
+		intervals [305]:
+			xmin = 64.997
+			xmax = 64.998
+			text = ""
+		intervals [306]:
+			xmin = 64.998
+			xmax = 65.30693799999999
+			text = "vanlig"
+		intervals [307]:
+			xmin = 65.30693799999999
+			xmax = 65.307938
+			text = ""
+		intervals [308]:
+			xmin = 65.307938
+			xmax = 65.987802
+			text = "jente"
+		intervals [309]:
+			xmin = 65.987802
+			xmax = 66.197697
+			text = ""
+		intervals [310]:
+			xmin = 66.197697
+			xmax = 66.267662
+			text = "nå"
+		intervals [311]:
+			xmin = 66.267662
+			xmax = 66.307642
+			text = ""
+		intervals [312]:
+			xmin = 66.307642
+			xmax = 66.48655199999999
+			text = "blir"
+		intervals [313]:
+			xmin = 66.48655199999999
+			xmax = 66.487552
+			text = ""
+		intervals [314]:
+			xmin = 66.487552
+			xmax = 66.647472
+			text = "hun"
+		intervals [315]:
+			xmin = 66.647472
+			xmax = 66.667476
+			text = ""
+		intervals [316]:
+			xmin = 66.667476
+			xmax = 67.17657799999999
+			text = "dronning"
+		intervals [317]:
+			xmin = 67.17657799999999
+			xmax = 67.177578
+			text = ""
+		intervals [318]:
+			xmin = 67.177578
+			xmax = 68.106764
+			text = "!!unk"
+		intervals [319]:
+			xmin = 68.106764
+			xmax = 68.107764
+			text = ""
+		intervals [320]:
+			xmin = 68.107764
+			xmax = 68.247792
+			text = "jeg"
+		intervals [321]:
+			xmin = 68.247792
+			xmax = 68.256667
+			text = ""
+		intervals [322]:
+			xmin = 68.256667
+			xmax = 68.435577
+			text = "får"
+		intervals [323]:
+			xmin = 68.435577
+			xmax = 68.436577
+			text = ""
+		intervals [324]:
+			xmin = 68.436577
+			xmax = 69.156217
+			text = "gåsehud"
+		intervals [325]:
+			xmin = 69.156217
+			xmax = 69.476057
+			text = ""
+		intervals [326]:
+			xmin = 69.476057
+			xmax = 69.684952
+			text = "bare"
+		intervals [327]:
+			xmin = 69.684952
+			xmax = 69.685952
+			text = ""
+		intervals [328]:
+			xmin = 69.685952
+			xmax = 69.87485699999999
+			text = "se"
+		intervals [329]:
+			xmin = 69.87485699999999
+			xmax = 69.875857
+			text = ""
+		intervals [330]:
+			xmin = 69.875857
+			xmax = 69.984802
+			text = "på"
+		intervals [331]:
+			xmin = 69.984802
+			xmax = 69.985802
+			text = ""
+		intervals [332]:
+			xmin = 69.985802
+			xmax = 70.47455699999999
+			text = "antrekket"
+		intervals [333]:
+			xmin = 70.47455699999999
+			xmax = 70.475557
+			text = ""
+		intervals [334]:
+			xmin = 70.475557
+			xmax = 70.904342
+			text = "hennes"
+		intervals [335]:
+			xmin = 70.904342
+			xmax = 70.905342
+			text = ""
+		intervals [336]:
+			xmin = 70.905342
+			xmax = 71.175207
+			text = "den"
+		intervals [337]:
+			xmin = 71.175207
+			xmax = 71.191038
+			text = ""
+		intervals [338]:
+			xmin = 71.191038
+			xmax = 71.91018199999999
+			text = "brudekjolen"
+		intervals [339]:
+			xmin = 71.91018199999999
+			xmax = 71.911182
+			text = ""
+		intervals [340]:
+			xmin = 71.911182
+			xmax = 72.360272
+			text = "kostet"
+		intervals [341]:
+			xmin = 72.360272
+			xmax = 72.361272
+			text = ""
+		intervals [342]:
+			xmin = 72.361272
+			xmax = 72.530306
+			text = "to"
+		intervals [343]:
+			xmin = 72.530306
+			xmax = 72.531306
+			text = ""
+		intervals [344]:
+			xmin = 72.531306
+			xmax = 72.980396
+			text = "millioner"
+		intervals [345]:
+			xmin = 72.980396
+			xmax = 72.981396
+			text = ""
+		intervals [346]:
+			xmin = 72.981396
+			xmax = 73.461492
+			text = "kroner"
+		intervals [347]:
+			xmin = 73.461492
+			xmax = 73.841568
+			text = ""
+		intervals [348]:
+			xmin = 73.841568
+			xmax = 73.93058599999999
+			text = "jeg"
+		intervals [349]:
+			xmin = 73.93058599999999
+			xmax = 73.931586
+			text = ""
+		intervals [350]:
+			xmin = 73.931586
+			xmax = 74.08061599999999
+			text = "så"
+		intervals [351]:
+			xmin = 74.08061599999999
+			xmax = 74.081616
+			text = ""
+		intervals [352]:
+			xmin = 74.081616
+			xmax = 74.21064199999999
+			text = "på"
+		intervals [353]:
+			xmin = 74.21064199999999
+			xmax = 74.211642
+			text = ""
+		intervals [354]:
+			xmin = 74.211642
+			xmax = 74.491698
+			text = "jenta"
+		intervals [355]:
+			xmin = 74.491698
+			xmax = 74.531678
+			text = ""
+		intervals [356]:
+			xmin = 74.531678
+			xmax = 74.60064299999999
+			text = "på"
+		intervals [357]:
+			xmin = 74.60064299999999
+			xmax = 74.601643
+			text = ""
+		intervals [358]:
+			xmin = 74.601643
+			xmax = 75.091398
+			text = "tv"
+		intervals [359]:
+			xmin = 75.091398
+			xmax = 75.471208
+			text = ""
+		intervals [360]:
+			xmin = 75.471208
+			xmax = 75.581153
+			text = "det"
+		intervals [361]:
+			xmin = 75.581153
+			xmax = 75.591918
+			text = ""
+		intervals [362]:
+			xmin = 75.591918
+			xmax = 75.95098999999999
+			text = "første"
+		intervals [363]:
+			xmin = 75.95098999999999
+			xmax = 75.95199
+			text = ""
+		intervals [364]:
+			xmin = 75.95199
+			xmax = 76.092018
+			text = "som"
+		intervals [365]:
+			xmin = 76.092018
+			xmax = 76.162032
+			text = ""
+		intervals [366]:
+			xmin = 76.162032
+			xmax = 76.421084
+			text = "datt"
+		intervals [367]:
+			xmin = 76.421084
+			xmax = 76.422084
+			text = ""
+		intervals [368]:
+			xmin = 76.422084
+			xmax = 76.582116
+			text = "ut"
+		intervals [369]:
+			xmin = 76.582116
+			xmax = 76.612122
+			text = ""
+		intervals [370]:
+			xmin = 76.612122
+			xmax = 76.691138
+			text = "av"
+		intervals [371]:
+			xmin = 76.691138
+			xmax = 76.692138
+			text = ""
+		intervals [372]:
+			xmin = 76.692138
+			xmax = 77.042208
+			text = "meg"
+		intervals [373]:
+			xmin = 77.042208
+			xmax = 77.532306
+			text = ""
+		intervals [374]:
+			xmin = 77.532306
+			xmax = 77.832366
+			text = "var"
+		intervals [375]:
+			xmin = 77.832366
+			xmax = 78.25245
+			text = ""
+		intervals [376]:
+			xmin = 78.25245
+			xmax = 78.31146199999999
+			text = "jeg"
+		intervals [377]:
+			xmin = 78.31146199999999
+			xmax = 78.312462
+			text = ""
+		intervals [378]:
+			xmin = 78.312462
+			xmax = 78.642528
+			text = "synes"
+		intervals [379]:
+			xmin = 78.642528
+			xmax = 78.662532
+			text = ""
+		intervals [380]:
+			xmin = 78.662532
+			xmax = 78.771554
+			text = "hun"
+		intervals [381]:
+			xmin = 78.771554
+			xmax = 78.772554
+			text = ""
+		intervals [382]:
+			xmin = 78.772554
+			xmax = 79.162632
+			text = "ser"
+		intervals [383]:
+			xmin = 79.162632
+			xmax = 79.40268
+			text = ""
+		intervals [384]:
+			xmin = 79.40268
+			xmax = 79.591718
+			text = "litt"
+		intervals [385]:
+			xmin = 79.591718
+			xmax = 79.592718
+			text = ""
+		intervals [386]:
+			xmin = 79.592718
+			xmax = 80.08181599999999
+			text = "ulykkelig"
+		intervals [387]:
+			xmin = 80.08181599999999
+			xmax = 80.082816
+			text = ""
+		intervals [388]:
+			xmin = 80.082816
+			xmax = 80.222844
+			text = "ut"
+		intervals [389]:
+			xmin = 80.222844
+			xmax = 80.542908
+			text = ""
+		intervals [390]:
+			xmin = 80.542908
+			xmax = 80.721944
+			text = "det"
+		intervals [391]:
+			xmin = 80.721944
+			xmax = 80.722944
+			text = ""
+		intervals [392]:
+			xmin = 80.722944
+			xmax = 81.122024
+			text = "kom"
+		intervals [393]:
+			xmin = 81.122024
+			xmax = 81.123024
+			text = ""
+		intervals [394]:
+			xmin = 81.123024
+			xmax = 81.243048
+			text = "et"
+		intervals [395]:
+			xmin = 81.243048
+			xmax = 81.293058
+			text = ""
+		intervals [396]:
+			xmin = 81.293058
+			xmax = 81.872174
+			text = "nærbilde"
+		intervals [397]:
+			xmin = 81.872174
+			xmax = 81.873174
+			text = ""
+		intervals [398]:
+			xmin = 81.873174
+			xmax = 82.143228
+			text = "jenta"
+		intervals [399]:
+			xmin = 82.143228
+			xmax = 82.15323
+			text = ""
+		intervals [400]:
+			xmin = 82.15323
+			xmax = 82.25224999999999
+			text = "på"
+		intervals [401]:
+			xmin = 82.25224999999999
+			xmax = 82.25325
+			text = ""
+		intervals [402]:
+			xmin = 82.25325
+			xmax = 82.823364
+			text = "skjermen"
+		intervals [403]:
+			xmin = 82.823364
+			xmax = 83.113422
+			text = ""
+		intervals [404]:
+			xmin = 83.113422
+			xmax = 83.25245
+			text = "vi"
+		intervals [405]:
+			xmin = 83.25245
+			xmax = 83.25345
+			text = ""
+		intervals [406]:
+			xmin = 83.25345
+			xmax = 83.382476
+			text = "kunne"
+		intervals [407]:
+			xmin = 83.382476
+			xmax = 83.383476
+			text = ""
+		intervals [408]:
+			xmin = 83.383476
+			xmax = 83.512502
+			text = "se"
+		intervals [409]:
+			xmin = 83.512502
+			xmax = 83.513502
+			text = ""
+		intervals [410]:
+			xmin = 83.513502
+			xmax = 83.633526
+			text = "en"
+		intervals [411]:
+			xmin = 83.633526
+			xmax = 83.65133
+			text = ""
+		intervals [412]:
+			xmin = 83.65133
+			xmax = 83.931386
+			text = "tåre"
+		intervals [413]:
+			xmin = 83.931386
+			xmax = 83.971394
+			text = ""
+		intervals [414]:
+			xmin = 83.971394
+			xmax = 84.270454
+			text = "dryppe"
+		intervals [415]:
+			xmin = 84.270454
+			xmax = 84.271454
+			text = ""
+		intervals [416]:
+			xmin = 84.271454
+			xmax = 84.45149
+			text = "fra"
+		intervals [417]:
+			xmin = 84.45149
+			xmax = 86.25185
+			text = ""
+		intervals [418]:
+			xmin = 86.25185
+			xmax = 86.621924
+			text = "haken"
+		intervals [419]:
+			xmin = 86.621924
+			xmax = 86.641928
+			text = ""
+		intervals [420]:
+			xmin = 86.641928
+			xmax = 87.05201
+			text = "hennes"
+		intervals [421]:
+			xmin = 87.05201
+			xmax = 87.392078
+			text = ""
+		intervals [422]:
+			xmin = 87.392078
+			xmax = 87.671134
+			text = "jenta"
+		intervals [423]:
+			xmin = 87.671134
+			xmax = 87.672134
+			text = ""
+		intervals [424]:
+			xmin = 87.672134
+			xmax = 88.031206
+			text = "tørket"
+		intervals [425]:
+			xmin = 88.031206
+			xmax = 88.032206
+			text = ""
+		intervals [426]:
+			xmin = 88.032206
+			xmax = 88.341268
+			text = "øynene"
+		intervals [427]:
+			xmin = 88.341268
+			xmax = 88.342268
+			text = ""
+		intervals [428]:
+			xmin = 88.342268
+			xmax = 88.431286
+			text = "og"
+		intervals [429]:
+			xmin = 88.431286
+			xmax = 88.432286
+			text = ""
+		intervals [430]:
+			xmin = 88.432286
+			xmax = 88.65133
+			text = "prøvde"
+		intervals [431]:
+			xmin = 88.65133
+			xmax = 88.65233
+			text = ""
+		intervals [432]:
+			xmin = 88.65233
+			xmax = 88.682336
+			text = "å"
+		intervals [433]:
+			xmin = 88.682336
+			xmax = 88.70234
+			text = ""
+		intervals [434]:
+			xmin = 88.70234
+			xmax = 89.11142199999999
+			text = "smile"
+		intervals [435]:
+			xmin = 89.11142199999999
+			xmax = 89.112422
+			text = ""
+		intervals [436]:
+			xmin = 89.112422
+			xmax = 89.881576
+			text = "!!unk"
+		intervals [437]:
+			xmin = 89.881576
+			xmax = 89.882576
+			text = ""
+		intervals [438]:
+			xmin = 89.882576
+			xmax = 90.582716
+			text = "sukket"
+		intervals [439]:
+			xmin = 90.582716
+			xmax = 90.65273
+			text = ""
+		intervals [440]:
+			xmin = 90.65273
+			xmax = 90.711742
+			text = "og"
+		intervals [441]:
+			xmin = 90.711742
+			xmax = 90.712742
+			text = ""
+		intervals [442]:
+			xmin = 90.712742
+			xmax = 91.14182799999999
+			text = "mumlet"
+		intervals [443]:
+			xmin = 91.14182799999999
+			xmax = 91.142828
+			text = ""
+		intervals [444]:
+			xmin = 91.142828
+			xmax = 91.53190599999999
+			text = "huff"
+		intervals [445]:
+			xmin = 91.53190599999999
+			xmax = 91.532906
+			text = ""
+		intervals [446]:
+			xmin = 91.532906
+			xmax = 91.691938
+			text = "du"
+		intervals [447]:
+			xmin = 91.691938
+			xmax = 91.692938
+			text = ""
+		intervals [448]:
+			xmin = 91.692938
+			xmax = 91.871974
+			text = "har"
+		intervals [449]:
+			xmin = 91.871974
+			xmax = 91.872974
+			text = ""
+		intervals [450]:
+			xmin = 91.872974
+			xmax = 91.931986
+			text = "jo"
+		intervals [451]:
+			xmin = 91.931986
+			xmax = 91.932986
+			text = ""
+		intervals [452]:
+			xmin = 91.932986
+			xmax = 92.232046
+			text = "rett"
+		intervals [453]:
+			xmin = 92.232046
+			xmax = 92.233046
+			text = ""
+		intervals [454]:
+			xmin = 92.233046
+			xmax = 92.392078
+			text = "hun"
+		intervals [455]:
+			xmin = 92.392078
+			xmax = 92.393078
+			text = ""
+		intervals [456]:
+			xmin = 92.393078
+			xmax = 92.65213
+			text = "ser"
+		intervals [457]:
+			xmin = 92.65213
+			xmax = 92.65313
+			text = ""
+		intervals [458]:
+			xmin = 92.65313
+			xmax = 92.912182
+			text = "ut"
+		intervals [459]:
+			xmin = 92.912182
+			xmax = 92.913182
+			text = ""
+		intervals [460]:
+			xmin = 92.913182
+			xmax = 93.06221199999999
+			text = "som"
+		intervals [461]:
+			xmin = 93.06221199999999
+			xmax = 93.063212
+			text = ""
+		intervals [462]:
+			xmin = 93.063212
+			xmax = 93.17223399999999
+			text = "hun"
+		intervals [463]:
+			xmin = 93.17223399999999
+			xmax = 93.173234
+			text = ""
+		intervals [464]:
+			xmin = 93.173234
+			xmax = 93.50229999999999
+			text = "skal"
+		intervals [465]:
+			xmin = 93.50229999999999
+			xmax = 93.5033
+			text = ""
+		intervals [466]:
+			xmin = 93.5033
+			xmax = 93.563312
+			text = "i"
+		intervals [467]:
+			xmin = 93.563312
+			xmax = 93.583316
+			text = ""
+		intervals [468]:
+			xmin = 93.583316
+			xmax = 94.20244
+			text = "begravelse"
+		intervals [469]:
+			xmin = 94.20244
+			xmax = 94.20344
+			text = ""
+		intervals [470]:
+			xmin = 94.20344
+			xmax = 94.692538
+			text = "!!unk"
+		intervals [471]:
+			xmin = 94.692538
+			xmax = 94.693538
+			text = ""
+		intervals [472]:
+			xmin = 94.693538
+			xmax = 95.15363
+			text = "ristet"
+		intervals [473]:
+			xmin = 95.15363
+			xmax = 95.183636
+			text = ""
+		intervals [474]:
+			xmin = 95.183636
+			xmax = 95.26265199999999
+			text = "på"
+		intervals [475]:
+			xmin = 95.26265199999999
+			xmax = 95.263652
+			text = ""
+		intervals [476]:
+			xmin = 95.263652
+			xmax = 95.52270399999999
+			text = "hodet"
+		intervals [477]:
+			xmin = 95.52270399999999
+			xmax = 95.523704
+			text = ""
+		intervals [478]:
+			xmin = 95.523704
+			xmax = 95.65373
+			text = "ja"
+		intervals [479]:
+			xmin = 95.65373
+			xmax = 95.671534
+			text = ""
+		intervals [480]:
+			xmin = 95.671534
+			xmax = 95.79055799999999
+			text = "de"
+		intervals [481]:
+			xmin = 95.79055799999999
+			xmax = 95.791558
+			text = ""
+		intervals [482]:
+			xmin = 95.791558
+			xmax = 96.01060199999999
+			text = "kunne"
+		intervals [483]:
+			xmin = 96.01060199999999
+			xmax = 96.011602
+			text = ""
+		intervals [484]:
+			xmin = 96.011602
+			xmax = 96.411682
+			text = "like"
+		intervals [485]:
+			xmin = 96.411682
+			xmax = 96.45169
+			text = ""
+		intervals [486]:
+			xmin = 96.45169
+			xmax = 96.860772
+			text = "gjerne"
+		intervals [487]:
+			xmin = 96.860772
+			xmax = 96.861772
+			text = ""
+		intervals [488]:
+			xmin = 96.861772
+			xmax = 97.130826
+			text = "kledd"
+		intervals [489]:
+			xmin = 97.130826
+			xmax = 97.131826
+			text = ""
+		intervals [490]:
+			xmin = 97.131826
+			xmax = 97.370874
+			text = "henne"
+		intervals [491]:
+			xmin = 97.370874
+			xmax = 97.371874
+			text = ""
+		intervals [492]:
+			xmin = 97.371874
+			xmax = 97.390878
+			text = "i"
+		intervals [493]:
+			xmin = 97.390878
+			xmax = 97.391878
+			text = ""
+		intervals [494]:
+			xmin = 97.391878
+			xmax = 97.68093599999999
+			text = "svarte"
+		intervals [495]:
+			xmin = 97.68093599999999
+			xmax = 97.681936
+			text = ""
+		intervals [496]:
+			xmin = 97.681936
+			xmax = 97.981996
+			text = "klær"
+		intervals [497]:
+			xmin = 97.981996
+			xmax = 99.40228
+			text = ""
+		intervals [498]:
+			xmin = 99.40228
+			xmax = 99.541308
+			text = "så"
+		intervals [499]:
+			xmin = 99.541308
+			xmax = 99.542308
+			text = ""
+		intervals [500]:
+			xmin = 99.542308
+			xmax = 99.95239
+			text = "smilte"
+		intervals [501]:
+			xmin = 99.95239
+			xmax = 99.97238
+			text = ""
+		intervals [502]:
+			xmin = 99.97238
+			xmax = 100.37118
+			text = "plutselig"
+		intervals [503]:
+			xmin = 100.37118
+			xmax = 100.37218
+			text = ""
+		intervals [504]:
+			xmin = 100.37218
+			xmax = 101.321664
+			text = "!!unk"
+		intervals [505]:
+			xmin = 101.321664
+			xmax = 101.322664
+			text = ""
+		intervals [506]:
+			xmin = 101.322664
+			xmax = 101.471694
+			text = "men"
+		intervals [507]:
+			xmin = 101.471694
+			xmax = 101.472694
+			text = ""
+		intervals [508]:
+			xmin = 101.472694
+			xmax = 101.65173
+			text = "da"
+		intervals [509]:
+			xmin = 101.65173
+			xmax = 101.65273
+			text = ""
+		intervals [510]:
+			xmin = 101.65273
+			xmax = 102.362872
+			text = "skulle"
+		intervals [511]:
+			xmin = 102.362872
+			xmax = 102.542908
+			text = ""
+		intervals [512]:
+			xmin = 102.542908
+			xmax = 102.712942
+			text = "dere"
+		intervals [513]:
+			xmin = 102.712942
+			xmax = 102.732946
+			text = ""
+		intervals [514]:
+			xmin = 102.732946
+			xmax = 103.10302
+			text = "sett"
+		intervals [515]:
+			xmin = 103.10302
+			xmax = 103.173034
+			text = ""
+		intervals [516]:
+			xmin = 103.173034
+			xmax = 103.313062
+			text = "meg"
+		intervals [517]:
+			xmin = 103.313062
+			xmax = 103.323064
+			text = ""
+		intervals [518]:
+			xmin = 103.323064
+			xmax = 103.532106
+			text = "som"
+		intervals [519]:
+			xmin = 103.532106
+			xmax = 103.533106
+			text = ""
+		intervals [520]:
+			xmin = 103.533106
+			xmax = 103.85317
+			text = "brud"
+		intervals [521]:
+			xmin = 103.85317
+			xmax = 104.213242
+			text = ""
+		intervals [522]:
+			xmin = 104.213242
+			xmax = 104.31226199999999
+			text = "jeg"
+		intervals [523]:
+			xmin = 104.31226199999999
+			xmax = 104.313262
+			text = ""
+		intervals [524]:
+			xmin = 104.313262
+			xmax = 104.70233999999999
+			text = "danset"
+		intervals [525]:
+			xmin = 104.70233999999999
+			xmax = 104.70334
+			text = ""
+		intervals [526]:
+			xmin = 104.70334
+			xmax = 104.77235399999999
+			text = "og"
+		intervals [527]:
+			xmin = 104.77235399999999
+			xmax = 104.773354
+			text = ""
+		intervals [528]:
+			xmin = 104.773354
+			xmax = 104.883376
+			text = "lo"
+		intervals [529]:
+			xmin = 104.883376
+			xmax = 105.0034
+			text = ""
+		intervals [530]:
+			xmin = 105.0034
+			xmax = 105.262452
+			text = "hele"
+		intervals [531]:
+			xmin = 105.262452
+			xmax = 105.263452
+			text = ""
+		intervals [532]:
+			xmin = 105.263452
+			xmax = 105.712542
+			text = "natta"
+		intervals [533]:
+			xmin = 105.712542
+			xmax = 105.713542
+			text = ""
+		intervals [534]:
+			xmin = 105.713542
+			xmax = 106.172634
+			text = "!!unk"
+		intervals [535]:
+			xmin = 106.172634
+			xmax = 106.173634
+			text = ""
+		intervals [536]:
+			xmin = 106.173634
+			xmax = 106.813762
+			text = "dro"
+		intervals [537]:
+			xmin = 106.813762
+			xmax = 106.823764
+			text = ""
+		intervals [538]:
+			xmin = 106.823764
+			xmax = 107.062812
+			text = "meg"
+		intervals [539]:
+			xmin = 107.062812
+			xmax = 107.063812
+			text = ""
+		intervals [540]:
+			xmin = 107.063812
+			xmax = 107.232846
+			text = "ut"
+		intervals [541]:
+			xmin = 107.232846
+			xmax = 107.233846
+			text = ""
+		intervals [542]:
+			xmin = 107.233846
+			xmax = 107.45289
+			text = "på"
+		intervals [543]:
+			xmin = 107.45289
+			xmax = 107.45389
+			text = ""
+		intervals [544]:
+			xmin = 107.45389
+			xmax = 107.972994
+			text = "gulvet"
+		intervals [545]:
+			xmin = 107.972994
+			xmax = 107.973994
+			text = ""
+		intervals [546]:
+			xmin = 107.973994
+			xmax = 107.980796
+			text = "og"
+		intervals [547]:
+			xmin = 107.980796
+			xmax = 107.981796
+			text = ""
+		intervals [548]:
+			xmin = 107.981796
+			xmax = 108.40088
+			text = "svingte"
+		intervals [549]:
+			xmin = 108.40088
+			xmax = 108.40188
+			text = ""
+		intervals [550]:
+			xmin = 108.40188
+			xmax = 108.580916
+			text = "meg"
+		intervals [551]:
+			xmin = 108.580916
+			xmax = 108.581916
+			text = ""
+		intervals [552]:
+			xmin = 108.581916
+			xmax = 108.841968
+			text = "rundt"
+		intervals [553]:
+			xmin = 108.841968
+			xmax = 108.90198
+			text = ""
+		intervals [554]:
+			xmin = 108.90198
+			xmax = 109.15203
+			text = "alle"
+		intervals [555]:
+			xmin = 109.15203
+			xmax = 109.182036
+			text = ""
+		intervals [556]:
+			xmin = 109.182036
+			xmax = 109.441088
+			text = "lo"
+		intervals [557]:
+			xmin = 109.441088
+			xmax = 109.4421
+			text = ""
+		intervals [558]:
+			xmin = 109.4421
+			xmax = 109.74
+			text = "høyt"
+		intervals [559]:
+			xmin = 109.74
+			xmax = 109.741
+			text = ""
+		intervals [560]:
+			xmin = 109.741
+			xmax = 110.039
+			text = "og"
+		intervals [561]:
+			xmin = 110.039
+			xmax = 110.040008
+			text = ""
+		intervals [562]:
+			xmin = 110.040008
+			xmax = 110.880176
+			text = "klappet"
+		intervals [563]:
+			xmin = 110.880176
+			xmax = 111.090218
+			text = ""
+		intervals [564]:
+			xmin = 111.090218
+			xmax = 111.18923799999999
+			text = "det"
+		intervals [565]:
+			xmin = 111.18923799999999
+			xmax = 111.190238
+			text = ""
+		intervals [566]:
+			xmin = 111.190238
+			xmax = 111.310262
+			text = "var"
+		intervals [567]:
+			xmin = 111.310262
+			xmax = 111.330266
+			text = ""
+		intervals [568]:
+			xmin = 111.330266
+			xmax = 111.62932599999999
+			text = "ganske"
+		intervals [569]:
+			xmin = 111.62932599999999
+			xmax = 111.630326
+			text = ""
+		intervals [570]:
+			xmin = 111.630326
+			xmax = 112.110422
+			text = "flaut"
+		intervals [571]:
+			xmin = 112.110422
+			xmax = 112.120424
+			text = ""
+		intervals [572]:
+			xmin = 112.120424
+			xmax = 112.219444
+			text = "og"
+		intervals [573]:
+			xmin = 112.219444
+			xmax = 112.220444
+			text = ""
+		intervals [574]:
+			xmin = 112.220444
+			xmax = 112.419484
+			text = "litt"
+		intervals [575]:
+			xmin = 112.419484
+			xmax = 112.420484
+			text = ""
+		intervals [576]:
+			xmin = 112.420484
+			xmax = 112.64953
+			text = "gøy"
+		intervals [577]:
+			xmin = 112.64953
+			xmax = 112.65053
+			text = ""
+		intervals [578]:
+			xmin = 112.65053
+			xmax = 112.759552
+			text = "på"
+		intervals [579]:
+			xmin = 112.759552
+			xmax = 112.760552
+			text = ""
+		intervals [580]:
+			xmin = 112.760552
+			xmax = 112.990598
+			text = "samme"
+		intervals [581]:
+			xmin = 112.990598
+			xmax = 113.030606
+			text = ""
+		intervals [582]:
+			xmin = 113.030606
+			xmax = 113.290658
+			text = "tid"
+		intervals [583]:
+			xmin = 113.290658
+			xmax = 113.640728
+			text = ""
+		intervals [584]:
+			xmin = 113.640728
+			xmax = 113.890778
+			text = "etterpå"
+		intervals [585]:
+			xmin = 113.890778
+			xmax = 113.910782
+			text = ""
+		intervals [586]:
+			xmin = 113.910782
+			xmax = 114.09982
+			text = "sa"
+		intervals [587]:
+			xmin = 114.09982
+			xmax = 114.10082
+			text = ""
+		intervals [588]:
+			xmin = 114.10082
+			xmax = 114.459892
+			text = "mamma"
+		intervals [589]:
+			xmin = 114.459892
+			xmax = 114.460892
+			text = ""
+		intervals [590]:
+			xmin = 114.460892
+			xmax = 114.579916
+			text = "at"
+		intervals [591]:
+			xmin = 114.579916
+			xmax = 114.580916
+			text = ""
+		intervals [592]:
+			xmin = 114.580916
+			xmax = 114.65093
+			text = "det"
+		intervals [593]:
+			xmin = 114.65093
+			xmax = 114.660932
+			text = ""
+		intervals [594]:
+			xmin = 114.660932
+			xmax = 114.940988
+			text = "hadde"
+		intervals [595]:
+			xmin = 114.940988
+			xmax = 114.960992
+			text = ""
+		intervals [596]:
+			xmin = 114.960992
+			xmax = 115.221044
+			text = "blitt"
+		intervals [597]:
+			xmin = 115.221044
+			xmax = 115.441088
+			text = ""
+		intervals [598]:
+			xmin = 115.441088
+			xmax = 115.98019599999999
+			text = "tidenes"
+		intervals [599]:
+			xmin = 115.98019599999999
+			xmax = 115.981196
+			text = ""
+		intervals [600]:
+			xmin = 115.981196
+			xmax = 116.411282
+			text = "beste"
+		intervals [601]:
+			xmin = 116.411282
+			xmax = 116.781356
+			text = ""
+		intervals [602]:
+			xmin = 116.781356
+			xmax = 117.71054199999999
+			text = "lokalhistoriske"
+		intervals [603]:
+			xmin = 117.71054199999999
+			xmax = 117.711542
+			text = ""
+		intervals [604]:
+			xmin = 117.711542
+			xmax = 118.091618
+			text = "kveld"
+		intervals [605]:
+			xmin = 118.091618
+			xmax = 118.391468
+			text = ""
+		intervals [606]:
+			xmin = 118.391468
+			xmax = 118.510408
+			text = "og"
+		intervals [607]:
+			xmin = 118.510408
+			xmax = 118.511408
+			text = ""
+		intervals [608]:
+			xmin = 118.511408
+			xmax = 118.65033799999999
+			text = "jeg"
+		intervals [609]:
+			xmin = 118.65033799999999
+			xmax = 118.651338
+			text = ""
+		intervals [610]:
+			xmin = 118.651338
+			xmax = 118.85023799999999
+			text = "var"
+		intervals [611]:
+			xmin = 118.85023799999999
+			xmax = 118.851238
+			text = ""
+		intervals [612]:
+			xmin = 118.851238
+			xmax = 119.261033
+			text = "vel"
+		intervals [613]:
+			xmin = 119.261033
+			xmax = 119.961173
+			text = ""
+		intervals [614]:
+			xmin = 119.961173
+			xmax = 120.531287
+			text = "egentlig"
+		intervals [615]:
+			xmin = 120.531287
+			xmax = 120.541289
+			text = ""
+		intervals [616]:
+			xmin = 120.541289
+			xmax = 121.021385
+			text = "enig"
+		intervals [617]:
+			xmin = 121.021385
+			xmax = 122.0693125
+			text = ""
