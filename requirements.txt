@@ -23,6 +23,5 @@ tgt
 typing-extensions
 urllib3
 uvicorn
-uvloop
 watchfiles
 websockets
