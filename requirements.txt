@@ -23,5 +23,4 @@ tgt
 typing-extensions
 urllib3
 uvicorn
-watchfiles
 websockets
