@@ -57,8 +57,8 @@ async def create_upload_files(audios: List[UploadFile], texts: List[UploadFile],
         # for text in texts:
         #     if text.filename.split('.')[0] == audio.filename.split('.')[1]:
             # save_file(text, RESPONSE_DIR, spk_id=audio.filename.split('.')[0])
-        for text in texts:
-            save_file(text, RESPONSE_DIR)
+    for text in texts:
+        save_file(text, RESPONSE_DIR)
 
     files = [{
     'audio_file': open(audio, 'rb'),
