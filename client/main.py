@@ -84,13 +84,10 @@ async def upload(request: Request, lang: str):
             app.ids.pop(app.ids.index(id))
             app.results.append(os.path.basename(result.content.decode())[:-9])
             app.results_zip.append(os.path.basename(result.content.decode())[:-9])
-    fin = len(app.results_zip)
     return templates.TemplateResponse(
         'done.html', context={
             'request': request,
             'lang': lang,
-            'fin': fin,
-            'all': app.ids_num,
             'done': app.results})
 
 
