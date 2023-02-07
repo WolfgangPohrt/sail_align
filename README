@@ -1,95 +1,25 @@
-SailAlign
+# SailAlign with UI
+This is a simple user interface for SailAlign a tool for long audio alignment. 
+## How to install 
+1. Download HTK binaries from SharePoint:
+    * Via [rclone](https://sway.office.com/HLs10wLU3hyJ8jSC?ref=Link "rclone"): 
+        	
+        ~~~~
+        rclone copy -P IMS-Sharepoint:AutomaticSpeechRecognition/htk/HTK-3.4.1.tar.gz .
+        rclone copy -P IMS-Sharepoint:AutomaticSpeechRecognition/htk/HTK-3.4.1.tar.gz .
+        ~~~~
+    * Download them from [here](https://imisathena.sharepoint.com/sites/speech-music-signal-dialogue/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2Fspeech%2Dmusic%2Dsignal%2Ddialogue%2FShared%20Documents%2FAutomaticSpeechRecognition%2Fhtk&FolderCTID=0x012000D97E6C1BD109AA469F829E267D3D5A55 "rclone").
 
-Long speech-text alignment can facilitate large-scale study of rich spoken 
-language resources that have recently become widely accessible, e.g., collections 
-of audio books, or multimedia documents. SailAlign is an open-source software toolkit 
-for robust long speech-text alignment implementing an adaptive, iterative speech recognition 
-and text alignment scheme that allows for the processing of very long (and possibly noisy) 
-audio and is robust to transcription errors.
+2. Build dokcer image and run container:
 
-The software package was originally presented at VLSP-2011:
-A. Katsamanis, M. Black, P. Georgiou, L. Goldstein and S. Narayanan, 
-SailAlign: Robust long speech-text alignment,
-in Proc. of Workshop on New Tools and Methods for Very-Large Scale Phonetics Research, Jan. 2011.
-
-INSTALLATION
-
-To install this module, run the following command while inside the SailAlign distribution folder. 
-The module can currently only work on linux - like operating systems. It has been tested in the following architectures:
-linux_i686, linux_x86_64 
-Compiled HTK binaries, including HDecode have to be available in your system, e.g., in the folder $HTK_BIN.
-You may need to be connected to the internet to install dependencies :
-
-       1) cpan Module::Build
-       	  This will install the Module::Build perl package from CPAN. You may skip this step if you have 
-	  the package already installed. It is used for the installation of the SailAlign package. If you haven't run the
-	  command cpan before you may have to go through a setup process. You can just
-	  select the default options when user input is required.  
-       2) perl Build.PL
-       	  This command configures the building process. Among others it will try to detect dependencies
-	  that are not installed in your system. Ignore any messages for missing dependencies in the beginning. 
-	  Provide the folder $HTK_BIN when asked. 
-          Internet connection is required at this point to download the acoustic models. 
-       3) sudo ./Build installdeps
-       	  Run this command if you got a message for missing dependencies in the previous step.
-       3) ./Build
-       	  This command will build the module.
-       4) sudo ./Build install
-          This command will install the module. The following perl scripts will be added to your path:
-	  sail_align, sail_align_parallel
-
-
-TESTING
-
-To test that the module has been properly installed you may run the following from inside the distribution folder:
->> sail_align -i support/data/timit_5.wav -t support/data/timit_5.txt -w support/test/local \
-   	      -e timit_sample_test -c config/timit_alignment.cfg
-
-This will run the alignment algorithm for the audio file timit_5.wav and the corresponding transcription timit_5.txt. The 
-results will be in the working directory 'support/test/local/timit_sample_test'. You may check the tutorial in the 'docs'
-folder for additional details.
-For spanish:
->> sail_align -i support/data/spanish/voxforge_spanish.wav -t support/data/spanish/voxforge_spanish.txt -w support/test/local_spanish \
-   	      -e spanish_test -c config/spanish_alignment.cfg
-For greek:
->> sail_align -i support/data/greek/greeksyn_05.wav -t support/data/greek/greeksyn_05.txt -w support/test/local_greek \
-   	      -e greek_test -c config/greek_alignment.cfg
-
-FIXES
-
-In case you get a warning like the following, there is no need to worry:
-"Ambiguous call resolved as CORE::read(), qualify as such or use & at (eval 18) line 4.
- Subroutine Audio::Wav::Read::read redefined at /usr/lib/perl5/site_perl/5.10.0/Audio/Wav/Read.pm line 316."
-It is due to a minor bug in the Audio::Wav external dependency and it does not affect sail_align's result.
-
-To avoid it you may apply the following patch:
-sudo patch /usr/lib/perl5/site_perl/5.10.0/Audio/Wav/Read.pm < support/patches/audio_wav_read.patch 
-
-
-SUPPORT AND DOCUMENTATION
-
-You may find additional documentation inside the docs subfolder, including the paper on SailAlign presented at 
-VLSP-2011 and a relevant tutorial that was given there as well.
-
-Contact Nassos Katsamanis for technical support.
-
-LICENSE AND COPYRIGHT
-
-Copyright (C) 2010-2013 Athanasios Katsamanis (http://sipi.usc.edu/~nkatsam)
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; version 2 dated June, 1991 or at your option
-any later version. SRILM binaries are only included in the distribution 
-for convenience and you may find the corresponding license, srilm-license, in the folder
-LICENSES.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-A copy of the GNU General Public License is available in the source tree;
-if not, write to the Free Software Foundation, Inc.,
-59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
-
+    ~~~~
+    docker build -t sail_align .
+    docker run -d -p 5000:5000 sail_align
+    ~~~~
+3. Go to http://localhost:5000/ 
+    * Select language:
+    ![My Image](docs/demo_1.png)
+    * Upload audio and text file for alignment:
+    ![My Image](docs/demo2.png)
+    * Download the alignments one by one or in a zip:
+    ![My Image](docs/demo3.png)
