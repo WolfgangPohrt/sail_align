@@ -18,10 +18,13 @@ This is a simple user interface for SailAlign a tool for long audio alignment.
     ~~~~
 3. Go to http://localhost:5000/ 
     * Select language:
+    
     ![](docs/demo_1.png)
     
     * Upload audio and text file for alignment:
+    
     ![](docs/demo2.png)
     
     * Download the alignments one by one or in a zip:
+    
     ![](docs/demo3.png)
