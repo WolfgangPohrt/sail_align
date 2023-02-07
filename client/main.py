@@ -51,12 +51,8 @@ async def create_upload_files(audios: List[UploadFile], texts: List[UploadFile],
         AUDIO_DIR, audio.filename) for audio in audios])
     text_filenames = [os.path.join(
         RESPONSE_DIR, '{}.{}.txt'.format(*basename(file).split('.')[:2])) for file in audio_filenames]
-    # text_filenames = sorted([text.filename for text in texts])
     for audio in audios:
         save_file(audio, AUDIO_DIR)
-        # for text in texts:
-        #     if text.filename.split('.')[0] == audio.filename.split('.')[1]:
-            # save_file(text, RESPONSE_DIR, spk_id=audio.filename.split('.')[0])
     for text in texts:
         save_file(text, RESPONSE_DIR)
 
@@ -108,6 +104,7 @@ async def download_file(lang: str):
         for name in app.results_zip:
             file_path = os.path.join(RESULT_DIR, f'{name}.textGrid')
             zipobj.write(file_path)
+            app.results.pop(app.results.index(name))
     return FileResponse(path='alignments.zip', filename='alignments.zip', media_type='text/mp4')
 
 

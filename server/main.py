@@ -31,7 +31,7 @@ async def upload_files(audio_file: UploadFile, text_file: UploadFile, lang: str,
         save_file(uploaded_file=audio_file)
         resample(wav_path=audio_file.filename)
         save_file(uploaded_file=text_file)
-
+        
         id = app.id
         app.id += 1
         # Add metadata to Queue.
